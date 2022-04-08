@@ -19,7 +19,7 @@ Mariana
 
 <img align="left" width="100" height="100" src="photos/hannah.jpg">
 Hannah
-<br/>
+<br/><br/><br/>
 
 ## Overview
 Introduce the group project by stating what the research inquiry is about, and why this is a matter of importance.
