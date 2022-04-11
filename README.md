@@ -5,6 +5,7 @@ We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's glo
 
 ## Meet the Team
 <!-- Alyssa -->
+<table>
 <tbody>
   <tr>
     <td>
@@ -42,6 +43,7 @@ We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's glo
     </td>
   </tr>
 </tbody>
+</table>
 
 ## Overview
 Introduce the group project by stating what the research inquiry is about, and why this is a matter of importance.
