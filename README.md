@@ -4,18 +4,44 @@
 We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's global impact via examining the rise of BTS's international popularity over the past decade.
 
 ## Meet the Team
-<img align="left" width="100" height="100" src="photos/alyssa.jpg">
-<br/>Hi, I'm <b>Alyssa Simmons</b> and I will be the <b>Web Developer</b> for our team. I am a fourth year Electrical Engineering major and I am excited to learn more about interactive web design over the course of this project. <br/><br/><br/>
-
-<img align="left" width="100" height="100" src="photos/yahaira.png">
-<br/>Hi, I'm <b>Yahaira Cortez</b> and I will be the <b>Data Specialis</b> for our team. I am a fourth year Cognitive Science major and Digital Humanities minor and I am excited to learn about web design and how to create and embed interactive maps.<br/><br/><br/>
-
-<img align="left" width="100" height="100" src="photos/mariana.png">
-<br/>Hi, I'm <b>Mariana Orozco-Berber</b> and I will be the <b>Project Manager</b> for our team. I am a fourth year Anthropology major and Digital Humanities minor. I am excited to use this project to imporve my coding skills as well as using them to create an interactive map.<br/><br/><br/>
-
-<img align="left" width="100" height="100" src="photos/hannah.jpg">
-<br/>Hi, I'm <b>Hannah Kim</b> and I will be the <b>Content Specialist</b> for our team. I am a third year Communications Major and Digital Humanities minor and I am looking forward to improving my coding skills and learning more about web design through our project!
-
+<!-- Alyssa -->
+<tbody>
+  <tr>
+    <td>
+      <img align="left" width="100" height="100" src="photos/alyssa.jpg">
+    </td>
+    <td>
+      Hi, I'm <b>Alyssa Simmons</b> and I will be the <b>Web Developer</b> for our team. I am a fourth year Electrical Engineering major and I am excited to learn more about interactive web design over the course of this project. 
+    </td>
+  </tr>
+<!--  Mariana  -->
+  <tr>
+    <td>
+      <img align="left" width="100" height="100" src="photos/mariana.png">
+    </td>
+    <td>
+      Hi, I'm <b>Mariana Orozco-Berber</b> and I will be the <b>Project Manager</b> for our team. I am a fourth year Anthropology major and Digital Humanities minor. I am excited to use this project to imporve my coding skills as well as using them to create an interactive map.
+    </td>
+  </tr>
+<!--  Yahaira  -->
+  <tr>
+    <td>
+      <img align="left" width="100" height="100" src="photos/yahaira.png">
+    </td>
+    <td>
+      Hi, I'm <b>Yahaira Cortez</b> and I will be the <b>Data Specialis</b> for our team. I am a fourth year Cognitive Science major and Digital Humanities minor and I am excited to learn about web design and how to create and embed interactive maps.
+    </td>
+  </tr>
+<!--  Hannah  -->
+  <tr>
+    <td>
+      <img align="left" width="100" height="100" src="photos/hannah.jpg">
+    </td>
+    <td>
+      Hi, I'm <b>Hannah Kim</b> and I will be the <b>Content Specialist</b> for our team. I am a third year Communications Major and Digital Humanities minor and I am looking forward to improving my coding skills and learning more about web design through our project!
+    </td>
+  </tr>
+</tbody>
 ## Overview
 Introduce the group project by stating what the research inquiry is about, and why this is a matter of importance.
 
