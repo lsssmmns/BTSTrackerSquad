@@ -13,8 +13,8 @@ Introduce each member of the team (include a photo/avatar), their titles, roles,
 Yahaira
 <br/><br/><br/><br/>
 
-<img align="left" width="100" height="100" src="photos/mariana.jpg">
-Mariana
+<img align="left" width="100" height="100" src="photos/mariana.png">
+Hi, I'm Mariana Orozco-Berber and I will be the **role** for our team. I am a fourth year Anthropology major and Digital Humanities minor. I am excited to use this project to imporve my coding skills as well as using them to create an interactive map.
 <br/><br/><br/><br/>
 
 <img align="left" width="100" height="100" src="photos/hannah.jpg">
