@@ -5,6 +5,8 @@
 -   **Wednesday: 5-6**
 -   **Friday: After 2**
 
+## (Meeting Notes)[https://docs.google.com/document/d/1SiOTZwaoKZrN21o24yZwme4SYmJTTtjh0-gAApbYGgw/edit?usp=sharing]
+
 ## Introduction
 We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's global impact via examining the rise of BTS's international popularity over the past decade.
 
