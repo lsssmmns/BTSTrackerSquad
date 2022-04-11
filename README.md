@@ -46,7 +46,9 @@ We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's glo
 </table>
 
 ## Overview
-Introduce the group project by stating what the research inquiry is about, and why this is a matter of importance.
+The purpose of this project is to understand and analyze the influence of South Korean pop group, Bangtan Boys (aka BTS) on several countries across the world.  
+
+BTS is inarguably one of the most well known music groups in the world. The band has broken many Guinness World records including the fastest time to reach 1 million followers on TikTok and highest viewed concert livestream. Although the group started in South Korea, they are globally adored. They are popular in several countries across North America, South America and Asia. Besides breaking music records across the world, BTS is also credited with being the most influential group for fashion in Japan (Citation). Some even argue that their popularity has increased interest in anything Korea: music, language and tourism (Citation). Needless to say, this group has had a great impact in several areas of culture, and our team is dedicated to analyzing their global influence by tracking their rise to fame in different countries across several continents in the world.
 
 ## Methodology
 Introduce web mapping as a methodology of inquiry, and explain why this medium was chosen.
