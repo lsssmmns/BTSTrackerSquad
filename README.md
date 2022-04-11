@@ -23,7 +23,6 @@ Introduce the group project by stating what the research inquiry is about, and w
 Introduce web mapping as a methodology of inquiry, and explain why this medium was chosen.
 
 ## Workflow
-Provide a workflow diagram/table that outlines the steps/phases the project will take from start to completion. Include dates/weeks as milestones.
 | Week |                            Goal                            |
 | :--: | :--------------------------------------------------------: |
 |  2   |                     Complete Proposal                      |
