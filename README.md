@@ -67,11 +67,12 @@ Introduce web mapping as a methodology of inquiry, and explain why this medium w
 |  10  |               Finalize and Test Usability                  |
 
 ## Technical scope
-Find the technologies and how we will be utilizing them for our projet below:
+Find the technologies and how we will be utilizing them for our project below:
 -   **Git/GitHub**: collaborate with each other and easily share files.
 -   **HTML**: create the foundation for our website.
 -   **CSS**: style the website.
 -   **JavaScript**: implement Leaflet and more interactive components on our website.
+-   **Python**: access and analyze data.
 -   **Leaflet**: visualize geographical locations with this mapping library.
 
 ## Geographic scope
