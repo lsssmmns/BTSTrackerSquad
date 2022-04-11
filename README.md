@@ -76,4 +76,4 @@ Find the technologies and how we will be utilizing them for our projet below:
 Our aim is to research BTS’s growing popularity across the world to reflect trends in the globalization of K-pop. We will examine and collect data on a <b>global scale</b>.
 
 ## Data
-Our project will mainly capture data from <a href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html" target="_blank">BTS Spotify Chart History</a> and a Spotify API to acquire BTS Spotify streams statistics according to year and country. We also plan to manually enter country coordinates and release dates of songs, released by BTS, onto the existing dataset to better map the data.
+Our project will mainly capture data from <b><a href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html" target="_blank">BTS Spotify Chart History</a></b> and a <b>Spotify API</b> to acquire BTS Spotify streams statistics according to year and country. We also plan to manually enter country coordinates and release dates of songs, released by BTS, onto the existing dataset to better map the data.
