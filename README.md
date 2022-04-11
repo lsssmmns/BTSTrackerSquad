@@ -53,4 +53,4 @@ Introduce the technologies that project will use (Git, Leaflet, HTML, Javascript
 Introduce the geographic scale that your project will take (global, USA, California, Los Angeles County, multi-scale, etc)
 
 ## Data
-Introduce at least two datasets that will be included in the project (include links as necessary). Make sure the data is "mappable" either by manual data entry, through an API, or by downloading it. 
+Our project will mainly capture data from <a href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html" target="_blank">BTS Spotify Chart History</a> and a Spotify API to acquire BTS Spotify streams statistics according to year and country. We also plan to manually enter country coordinates and release dates of songs, released by BTS, onto the existing dataset to better map the data.
