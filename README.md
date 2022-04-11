@@ -18,7 +18,7 @@ Mariana
 <br/><br/><br/><br/>
 
 <img align="left" width="100" height="100" src="photos/hannah.jpg">
-<br/>Hi, I'm Hannah Kim and I will be the **role** for our team. I am a third year Communications Major and Digital Humanities minor and I am looking forward to improve my coding skills and learn more about web design through our project!
+<br/>Hi, I'm Hannah Kim and I will be the **role** for our team. I am a third year Communications Major and Digital Humanities minor and I am looking forward to improving my coding skills and learning more about web design through our project!
 <br/><br/><br/>
 
 ## Overview
