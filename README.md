@@ -10,8 +10,8 @@ Introduce each member of the team (include a photo/avatar), their titles, roles,
 <br/>Hi, I'm Alyssa Simmons and I will be the **role** for our team. I am a fourth year Electrical Engineering major and I am excited to learn more about interactive web design over the course of this project. <br/><br/><br/>
 
 <img align="left" width="100" height="100" src="photos/yahaira.png">
-Yahaira
-<br/><br/><br/><br/>
+Hi, I'm Yahaira Cortez and I will be the **data specialist** for our team. I am a fourth year Cognitive Science major and Digital Humanities minor and I am excited to strengthen my coding skills and learn how to create and embed interactive maps.
+<br/><br/><br/>
 
 <img align="left" width="100" height="100" src="photos/mariana.png">
 Hi, I'm Mariana Orozco-Berber and I will be the **role** for our team. I am a fourth year Anthropology major and Digital Humanities minor. I am excited to use this project to imporve my coding skills as well as using them to create an interactive map.
