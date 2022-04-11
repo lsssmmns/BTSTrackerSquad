@@ -1,5 +1,10 @@
 # Thick Map Proposal
 
+## Possible Meeting Times
+-   **Monday: 6-7**
+-   **Wednesday: 5-6**
+-   **Friday: After 2**
+
 ## Introduction
 We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's global impact via examining the rise of BTS's international popularity over the past decade.
 
