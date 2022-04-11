@@ -4,6 +4,7 @@
 -   **Monday: 6-7**
 -   **Wednesday: 5-6**
 -   **Friday: After 2**
+
 See our [meeting notes](https://docs.google.com/document/d/1SiOTZwaoKZrN21o24yZwme4SYmJTTtjh0-gAApbYGgw/edit?usp=sharing) and brainstorming!
 
 ## Introduction
