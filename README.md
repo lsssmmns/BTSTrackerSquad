@@ -47,7 +47,7 @@ Introduce the technologies that project will use (Git, Leaflet, HTML, Javascript
 -   **Leaflet**: visualize geographical locations with this mapping library.
 
 ## Geographic scope
-Introduce the geographic scale that your project will take (global, USA, California, Los Angeles County, multi-scale, etc)
+Our aim is to research BTS’s growing popularity across the world to reflect trends in the globalization of K-pop. We will examine and collect data on a global scale.
 
 ## Data
 Our project will mainly capture data from <a href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html" target="_blank">BTS Spotify Chart History</a> and a Spotify API to acquire BTS Spotify streams statistics according to year and country. We also plan to manually enter country coordinates and release dates of songs, released by BTS, onto the existing dataset to better map the data.
