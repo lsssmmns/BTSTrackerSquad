@@ -5,7 +5,7 @@ We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's glo
 
 ## Meet the Team
 <!-- Alyssa -->
-<table display:none>
+<table display=none>
 <tbody>
   <tr>
     <td>
