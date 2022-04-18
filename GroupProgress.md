@@ -31,7 +31,7 @@ According to this particular source, the Hyundai Research Institute has estimate
 Generally we want the site to be fun and sleek. We think it would be cool to mimic the BTS website so it’s fun for fans and conveys a sense of credibility on the subject matter. We would like to keep all the storytelling elements on one page, so it’s important to be very organized so as much information as possible can be fit into a small space (don’t want to have to scroll for hours). Some interesting features to implement are: a play button that shows the user the mapping data changes over a certain time period, have multiple overlapping datasets which can be added or removed from the map using checkboxes, create start page that walks through the data narrative using a slideshow format.
 ### Inspiration
   * [https://www.healthmap.org/covid-19/](url)
-    *play button walk through data visualization over the time
+    * play button walk through data visualization over the time
   * [https://justisg.github.io/TheMusicalMaps/Website/index.html](url) 
     * info button: describe how to use site
     * select buttons: decide what data (colorcoded) shows up on the map
