@@ -29,20 +29,20 @@ With the rise to stardom of BTS, more people around the world became aware of wh
 According to this particular source, the Hyundai Research Institute has estimated that BTS generates about 3 billion US dollars, about 4 trillion won, as economic value to the country per year, with increasing estimates in following years. Not only is their economic effect larger than any other Orean artists, but their popularity has had a great impact on South Korean tourism and it has piqued others’ interest in the culture. The article details BTS’s impact on the economy of South Korea across several industries: Music, clothing cosmetics, and food. The popularity of BTS has vastly impacted the trajectory of the country’s economy, making this a viable and almost necessary narrative to explore via the band’s popularity. 
 
 ## Datasets
-  * [https://popcrush.com/bts-billboard-charts-history-timeline/](url)
+  * [https://popcrush.com/bts-billboard-charts-history-timeline/](https://popcrush.com/bts-billboard-charts-history-timeline/)
     * Gives brief timeline on BTS on billboard charts 
-  * [https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html](url)
+  * [https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html](https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html)
     * Main dataset where we’ll be mapping points where BTS has charted #1 on spotify by Song 
     * The dataset includes the chart standings of most, if not all, BTS songs, in every country and includes the ‘peak’ date of each song, which means the date the song reached its highest chart rating. 
     * Number on chart could emphasize popularity? Like #1 would be a darker hue than if they were #123 on chart
-  * [https://spotifycharts.com/regional/us/weekly/2022-02-25--2022-03-04](url)
+  * [https://spotifycharts.com/regional/us/weekly/2022-02-25--2022-03-04](https://spotifycharts.com/regional/us/weekly/2022-02-25--2022-03-04)
     * Weekly Top 200, by country or overall Global chart 
     * Thinking of making csv that includes when BTS were #1 in those top 200 charts, either globally or by country 
     * Potential dataset but not sure 
-  * [https://www.billboard.com/music/music-news/bts-takeover-timeline-bbmas-8455612/](url)
+  * [https://www.billboard.com/music/music-news/bts-takeover-timeline-bbmas-8455612/](https://www.billboard.com/music/music-news/bts-takeover-timeline-bbmas-8455612/)
     * The following data will be used to construct the timeline of BTS to serve as the foundation to the narrative. The timeline gives a brief history into the music success of BTS through their career. 
 Could be used as intro 
-  * [https://en.wikipedia.org/wiki/List_of_BTS_live_performances#Tours](url)
+  * [https://en.wikipedia.org/wiki/List_of_BTS_live_performances#Tours](https://en.wikipedia.org/wiki/List_of_BTS_live_performances#Tours)
     * The linked data features all BTS tours as well as all the locations and dates of the tours. The data will serve to support the narrative of BTS rapid global expansion. 
         - Could use the size of stadiums to emphasize popularity?
 
@@ -51,14 +51,14 @@ Could be used as intro
 ![BTS Photo](/photos/bts.png "BTS")
 Generally we want the site to be fun and sleek. We think it would be cool to mimic the BTS website so it’s fun for fans and conveys a sense of credibility on the subject matter. We would like to keep all the storytelling elements on one page, so it’s important to be very organized so as much information as possible can be fit into a small space (don’t want to have to scroll for hours). Some interesting features to implement are: a play button that shows the user the mapping data changes over a certain time period, have multiple overlapping datasets which can be added or removed from the map using checkboxes, create start page that walks through the data narrative using a slideshow format.
 ### Inspiration
-  * [https://www.healthmap.org/covid-19/](url)
+  * [https://www.healthmap.org/covid-19/](https://www.healthmap.org/covid-19/)
     * play button walk through data visualization over the time
-  * [https://justisg.github.io/TheMusicalMaps/Website/index.html](url) 
+  * [https://justisg.github.io/TheMusicalMaps/Website/index.html](https://justisg.github.io/TheMusicalMaps/Website/index.html) 
     * info button: describe how to use site
     * select buttons: decide what data (colorcoded) shows up on the map
     * map concerts (could map BTS performances)
         - use popularity (from twitter data???) to make the marker proportionally larger/smaller
-  * [http://maps.tnc.org/migrations-in-motion/#3/25.56/-102.66](url)
+  * [http://maps.tnc.org/migrations-in-motion/#3/25.56/-102.66](http://maps.tnc.org/migrations-in-motion/#3/25.56/-102.66)
     * corner popup walks through the data narrative (See possible sections below:)
         - Introduce the project
         - How was it made?
@@ -66,7 +66,7 @@ Generally we want the site to be fun and sleek. We think it would be cool to mim
         - Credits
         - Read more
         - References
-  * [https://ibighit.com/bts/kor/discography/](url)
+  * [https://ibighit.com/bts/kor/discography/](https://ibighit.com/bts/kor/discography/)
     * I want to kinda mimic BTS’s style bc I think that would be fun
     * could put a fuzzy camera filter (mildly sepia) over our team photos to mimic the BTS style
     * tend to do a lot of layering of rectangles and semitransparent overlays
@@ -74,7 +74,7 @@ Generally we want the site to be fun and sleek. We think it would be cool to mim
     * usually the backgrounds are bright
     * scrollable, 4 sections (album+description, video, photo slideshows, track list)
     * 5% border radius on buttons or links in lists
-    * use BTS fonts [https://twitter.com/bts_fonts](url) 
+    * use BTS fonts [https://twitter.com/bts_fonts](https://twitter.com/bts_fonts) 
 
 ## How Our Site Will Help a Particular Cause
 By creating this site, we hope that we can effectively depict trends in the global popularity of BTS. We aim to tell a compelling story that maps out stages of BTS’s career in an engaging, intuitive and interactive way. By drawing inspiration from other projects and mapping sites, we will implement a design that depicts the trajectory of BTS’s career over the years and also portrays their personal style.  
