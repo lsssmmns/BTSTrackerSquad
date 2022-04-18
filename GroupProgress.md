@@ -10,9 +10,11 @@ This is a final project from a previous DH 151 group. The group showed musical t
 Aside from key features, we find the map to be aesthetically pleasing. There are a lot of markers on the map for each genre, and keeping a minimalist design allows the user to focus on the data rather than other elements. 
 
 #### Migration in Motion
+![Migration in Motion Photo](/photos/MiM.png "Migration in Motion")
 This map demonstrates migration patterns in mammals, birds and amphibians across the world by using continuous moving lines. Color allows the user to differentiate between the three categories. Although we are not sure we are not looking to pursue a map that mimics this one, we did like the way the data and research question is contextualized within a component on the bottom left of the map. The little box is somewhat of a slideshow presenting the main research question and purpose of the map without taking from the content on the actual map. 
 
 #### Novel Coronavirus Healthmap
+![Novel Coronavirus Healthmap Photo](/photos/HealthMap.png "Novel Coronavirus Healthmap")
 This map does not have a lot we can take from. It maps the amount of COVID-19cases from January 2020 to present using different color markers to represent the density of COVID-19 cases; the data can also be filtered by country by clicking on or searching for the country name on the sidebar. Our favorite feature from this map was the “Play” button at the bottom. When clicked, the map is brought to life as COVID-19 case markers start to pop out on the map in chronological order. 
 
 ### Possible Narrative
@@ -28,6 +30,7 @@ According to this particular source, the Hyundai Research Institute has estimate
 
 
 ## Website Design
+![BTS Photo](/photos/BTS.png "BTS")
 Generally we want the site to be fun and sleek. We think it would be cool to mimic the BTS website so it’s fun for fans and conveys a sense of credibility on the subject matter. We would like to keep all the storytelling elements on one page, so it’s important to be very organized so as much information as possible can be fit into a small space (don’t want to have to scroll for hours). Some interesting features to implement are: a play button that shows the user the mapping data changes over a certain time period, have multiple overlapping datasets which can be added or removed from the map using checkboxes, create start page that walks through the data narrative using a slideshow format.
 ### Inspiration
   * [https://www.healthmap.org/covid-19/](url)
