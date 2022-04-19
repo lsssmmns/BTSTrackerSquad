@@ -3,6 +3,7 @@
 ## Mindmap
 ### Alyssa 
 ![Alyssa's Mindmap Photo](/photos/alyssa_mindmap.png =100x "Alyssa's Mindmap Photo")
+[<img src="/photos/alyssa_mindmap.png" width="250"/>](alyssa_mindmap.png)
 #### Reactions
 - Hannah:
 - Mariana:
