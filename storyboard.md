@@ -2,7 +2,7 @@
 
 ## Mindmap
 ### Alyssa 
-![Alyssa's Mindmap Photo](/photos/alyssa_mindmap.png "Alyssa's Mindmap Photo")
+![Alyssa's Mindmap Photo](/photos/alyssa_mindmap.png "Alyssa's Mindmap Photo" =100x20)
 #### Reactions
 - Hannah:
 - Mariana:
