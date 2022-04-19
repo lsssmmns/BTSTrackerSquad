@@ -2,21 +2,25 @@
 
 ## Mindmap
 ### Alyssa 
+![Alyssa's Mindmap Photo](/photos/alyssa_mindmap.png "Alyssa's Mindmap Photo")
 #### Reactions
 - Hannah:
 - Mariana:
 - Yahaira: 
 ### Hannah
+![Hannah's Mindmap Photo](/photos/hannah_mindmap.png "Hannah's Mindmap Photo")
 #### Reactions
 - Alyssa:
 - Mariana:
 - Yahaira: 
 ### Mariana
+![Mariana's Mindmap Photo](/photos/mariana_mindmap.png "Mariana's Mindmap Photo")
 #### Reactions
 - Alyssa: 
 - Hannah:
 - Yahaira: 
 ### Yahaira
+![Yahaira's Mindmap Photo](/photos/yahaira_mindmap.png "Yahaira's Mindmap Photo")
 #### Reactions
 - Alyssa:
 - Hannah:
@@ -24,24 +28,29 @@
 
 ## Crazy Eights 
 ### Alyssa 
+![Alyssa's Crazy Eight Photo](/photos/alyssa_crazyeight.png "Alyssa's Crazy Eight Photo")
 #### Reactions
 - Hannah:
 - Mariana:
 - Yahaira: 
 ### Hannah
+![Hannah's Crazy Eight Photo](/photos/hannah_crazyeight.png "Hannah's Crazy Eight Photo")
 #### Reactions
 - Alyssa:
 - Mariana:
 - Yahaira: 
 ### Mariana
+![Mariana's Crazy Eight Photo](/photos/mariana_crazyeight.png "Mariana's Crazy Eight Photo")
 #### Reactions
 - Alyssa: 
 - Hannah:
 - Yahaira: 
 ### Yahaira
+![Yahaira's Crazy Eight Photo](/photos/yahaira_crazyeight.png "Yahaira's Crazy Eight Photo")
 #### Reactions
 - Alyssa:
 - Hannah:
 - Mariana: 
 
 ## Storyboard with Wireframing
+![BTSTrackerSquad's Wireframe](/photos/wireframe.png "BTSTrackerSquad's Wireframe")
