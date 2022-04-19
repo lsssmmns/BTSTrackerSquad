@@ -28,25 +28,25 @@
 
 ## Crazy Eights 
 ### Alyssa 
-![Alyssa's Crazy Eight Photo](/photos/alyssa_crazyeight.png "Alyssa's Crazy Eight Photo")
+![Alyssa's Crazy Eight Photo](/photos/alyssa_crazyeights.png "Alyssa's Crazy Eight Photo")
 #### Reactions
 - Hannah:
 - Mariana:
 - Yahaira: 
 ### Hannah
-![Hannah's Crazy Eight Photo](/photos/hannah_crazyeight.png "Hannah's Crazy Eight Photo")
+![Hannah's Crazy Eight Photo](/photos/hannah_crazyeights.png "Hannah's Crazy Eight Photo")
 #### Reactions
 - Alyssa:
 - Mariana:
 - Yahaira: 
 ### Mariana
-![Mariana's Crazy Eight Photo](/photos/mariana_crazyeight.png "Mariana's Crazy Eight Photo")
+![Mariana's Crazy Eight Photo](/photos/mariana_crazyeights.png "Mariana's Crazy Eight Photo")
 #### Reactions
 - Alyssa: 
 - Hannah:
 - Yahaira: 
 ### Yahaira
-![Yahaira's Crazy Eight Photo](/photos/yahaira_crazyeight.png "Yahaira's Crazy Eight Photo")
+![Yahaira's Crazy Eight Photo](/photos/yahaira_crazyeights.png "Yahaira's Crazy Eight Photo")
 #### Reactions
 - Alyssa:
 - Hannah:
