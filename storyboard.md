@@ -1,25 +1,47 @@
 # UX Design
 
 ## Mindmap
-### Reflection
-
-#### Alyssa 
-
-#### Hannah
-
-#### Mariana
-
-#### Yahaira
+### Alyssa 
+#### Reactions
+- Hannah:
+- Mariana:
+- Yahaira: 
+### Hannah
+#### Reactions
+- Alyssa:
+- Mariana:
+- Yahaira: 
+### Mariana
+#### Reactions
+- Alyssa: 
+- Hannah:
+- Yahaira: 
+### Yahaira
+#### Reactions
+- Alyssa:
+- Hannah:
+- Mariana:
 
 ## Crazy Eights 
-### Reflection
-
-#### Alyssa 
-
-#### Hannah
-
-#### Mariana
-
-#### Yahaira
+### Alyssa 
+#### Reactions
+- Hannah:
+- Mariana:
+- Yahaira: 
+### Hannah
+#### Reactions
+- Alyssa:
+- Mariana:
+- Yahaira: 
+### Mariana
+#### Reactions
+- Alyssa: 
+- Hannah:
+- Yahaira: 
+### Yahaira
+#### Reactions
+- Alyssa:
+- Hannah:
+- Mariana: 
 
 ## Storyboard with Wireframing
