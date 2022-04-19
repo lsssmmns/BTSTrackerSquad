@@ -1,12 +1,4 @@
-# Part 1: Data plan update
-## [Dataset 1](link)
-description on use
-## [Dataset 2](link)
-description on use
-## [Dataset 3](link)
-description on use
-
-# Part 2: UX Design
+# UX Design
 
 ## Mindmap
 ### Reflection
