@@ -10,7 +10,7 @@
 ### Hannah
 [<img src="/photos/hannah_mindmap.png" width="400"/>](hannah_mindmap.png)
 #### Reactions
-- Alyssa:
+- Alyssa: Like the narrative walk through.
 - Mariana:
 - Yahaira: Really like the toggle feature on the map! Also really like the other detail ideas for the map (hover and animation).
 ### Mariana
@@ -22,7 +22,7 @@
 ### Yahaira
 [<img src="/photos/Yahaira_MindMap.png" width="400"/>](Yahaira_MindMap.png)
 #### Reactions
-- Alyssa:
+- Alyssa: Like the simplicity and the subsections.
 - Hannah:
 - Mariana:
 
@@ -36,7 +36,7 @@
 ### Hannah
 [<img src="/photos/hannah_crazyeights.png" width="400"/>](hannah_crazyeights.png)
 #### Reactions
-- Alyssa:
+- Alyssa: The spotify linked playlist could be really fun especially since each member has their own playlist. Could be part of the home page introducing BTS.
 - Mariana:
 - Yahaira: Like the specificity of the options on the toggle and animation features.
 ### Mariana
@@ -48,7 +48,7 @@
 ### Yahaira
 [<img src="/photos/Yahaira_CrazyEight.png" width="400"/>](Yahaira_CrazyEight.png)
 #### Reactions
-- Alyssa:
+- Alyssa: Pretty excited to see how the timeline will be incorporated into the site.
 - Hannah:
 - Mariana: 
 
