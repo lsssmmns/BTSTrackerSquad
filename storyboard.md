@@ -6,13 +6,13 @@
 #### Reactions
 - Hannah:
 - Mariana:
-- Yahaira: 
+- Yahaira: Likes the navigation of the site and how it is organized into 3 pages. 
 ### Hannah
 [<img src="/photos/hannah_mindmap.png" width="400"/>](hannah_mindmap.png)
 #### Reactions
 - Alyssa:
 - Mariana:
-- Yahaira: 
+- Yahaira: Really like the toggle feature on the map! Also really like the other detail ideas for the map (hover and animation).
 ### Mariana
 [<img src="/photos/mariana_mindmap.png" width="400"/>](mariana_mindmap.png)
 #### Reactions
@@ -32,13 +32,13 @@
 #### Reactions
 - Hannah:
 - Mariana:
-- Yahaira: 
+- Yahaira: Love the extra details in the different aspects of the site, such as the timeline bar, sidebar, and toggle features. 
 ### Hannah
 [<img src="/photos/hannah_crazyeights.png" width="400"/>](hannah_crazyeights.png)
 #### Reactions
 - Alyssa:
 - Mariana:
-- Yahaira: 
+- Yahaira: Like the specificity of the options on the toggle and animation features.
 ### Mariana
 [<img src="/photos/mariana_crazyeights.png" width="400"/>](mariana_crazyeights.png)
 #### Reactions
