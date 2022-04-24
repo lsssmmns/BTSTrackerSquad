@@ -20,7 +20,7 @@
 - Hannah:
 - Yahaira: 
 ### Yahaira
-[<img src="/photos/yahaira_mindmap.png" width="400"/>](yahaira_mindmap.png)
+[<img src="/photos/Yahaira_MindMap.png" width="400"/>](Yahaira_MindMap.png)
 #### Reactions
 - Alyssa:
 - Hannah:
@@ -46,7 +46,7 @@
 - Hannah:
 - Yahaira: 
 ### Yahaira
-[<img src="/photos/yahaira_crazyeights.png" width="400"/>](yahaira_crazyeights.png)
+[<img src="/photos/Yahaira_Crazy8.png" width="400"/>](Yahaira_Crazy8.png)
 #### Reactions
 - Alyssa:
 - Hannah:
