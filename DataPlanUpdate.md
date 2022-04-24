@@ -1,5 +1,5 @@
 # Data Plan Update
-## [Dataset 1](https://spotifycharts.com/regional/us/weekly/2022-02-25--2022-03-04)
+## [Dataset 1](https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html)
 description on use
 ## [Dataset 2](https://en.wikipedia.org/wiki/List_of_BTS_live_performances#Tours)
 description on use
