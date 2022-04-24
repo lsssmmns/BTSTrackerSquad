@@ -6,7 +6,7 @@
 #### Reactions
 - Hannah:
 - Mariana:
-- Yahaira: Likes the navigation of the site and how it is organized into 3 pages. 
+- Yahaira: Likes the navigation of the site and how it is seems easily organized into 3 pages. 
 ### Hannah
 [<img src="/photos/hannah_mindmap.png" width="400"/>](hannah_mindmap.png)
 #### Reactions
@@ -32,7 +32,7 @@
 #### Reactions
 - Hannah:
 - Mariana:
-- Yahaira: Love the extra details in the different aspects of the site, such as the timeline bar, sidebar, and toggle features. 
+- Yahaira: Especially enjoy the extra details in the different aspects of the site, such as the timeline bar, sidebar, and toggle features. 
 ### Hannah
 [<img src="/photos/hannah_crazyeights.png" width="400"/>](hannah_crazyeights.png)
 #### Reactions
