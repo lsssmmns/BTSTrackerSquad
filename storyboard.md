@@ -46,11 +46,11 @@
 - Hannah:
 - Yahaira: 
 ### Yahaira
-[<img src="/photos/Yahaira_Crazy8.png" width="400"/>](Yahaira_Crazy8.png)
+[<img src="/photos/Yahaira_CrazyEight.png" width="400"/>](Yahaira_CrazyEight.png)
 #### Reactions
 - Alyssa:
 - Hannah:
 - Mariana: 
 
 ## Storyboard with Wireframing
-[<img src="/photos/wireframe.png" width="400"/>](wireframe.png)
+[<img src="/photos/Yahaira_Story_WireFrame.png" width="400"/>](Yahaira_Story_WireFrame.png)
