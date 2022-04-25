@@ -23,14 +23,14 @@
 [<img src="/photos/Yahaira_MindMap.png" width="400"/>](Yahaira_MindMap.png)
 #### Reactions
 - Alyssa: Like the simplicity and the subsections.
-- Hannah:
+- Hannah: Organization is nice, likes the easy navigation.
 - Mariana:
 
 ## Crazy Eights 
 ### Alyssa 
 [<img src="/photos/alyssa_crazyeights.png" width="400"/>](alyssa_crazyeights.png)
 #### Reactions
-- Hannah:
+- Hannah: Likes the attention to detail in the site features like in the timeline bar. Great for making the site interactive and engaging.
 - Mariana:
 - Yahaira: Especially enjoy the extra details in the different aspects of the site, such as the timeline bar, sidebar, and toggle features. 
 ### Hannah
@@ -49,7 +49,7 @@
 [<img src="/photos/Yahaira_CrazyEight.png" width="400"/>](Yahaira_CrazyEight.png)
 #### Reactions
 - Alyssa: Pretty excited to see how the timeline will be incorporated into the site.
-- Hannah:
+- Hannah: Timeline idea is a really great feature, helps especially with our storytelling.
 - Mariana: 
 
 ## Storyboard with Wireframing
