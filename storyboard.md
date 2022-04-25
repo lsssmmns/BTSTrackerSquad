@@ -4,7 +4,7 @@
 ### Alyssa 
 [<img src="/photos/alyssa_mindmap.png" width="400"/>](alyssa_mindmap.png)
 #### Reactions
-- Hannah:
+- Hannah: Likes the site header feature for users to navigate easily through our site and explore different areas of information. 
 - Mariana:
 - Yahaira: Likes the navigation of the site and how it is seems easily organized into 3 pages. 
 ### Hannah
