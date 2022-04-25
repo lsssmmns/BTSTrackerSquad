@@ -2,7 +2,7 @@
 
 ## Mindmap
 ### Alyssa 
-[<img src="/photos/alyssa_mindmap.png" width="400"/>](alyssa_mindmap.png)
+[<img src="/photos/alyssa_mindmap.png" width="400"/>](/photos/alyssa_mindmap.png)
 #### Reactions
 - Hannah: Likes the site header feature for users to navigate easily through our site and explore different areas of information. 
 - Mariana:
