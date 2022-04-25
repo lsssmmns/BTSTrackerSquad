@@ -16,7 +16,7 @@
 ### Mariana
 [<img src="/photos/mariana_mindmap.png" width="400"/>](mariana_mindmap.png)
 #### Reactions
-- Alyssa: 
+- Alyssa: Like the map fullscreen  option.
 - Hannah:
 - Yahaira: 
 ### Yahaira
@@ -42,7 +42,7 @@
 ### Mariana
 [<img src="/photos/mariana_crazyeights.png" width="400"/>](mariana_crazyeights.png)
 #### Reactions
-- Alyssa: 
+- Alyssa: Like the dropdown menu and song search options.
 - Hannah:
 - Yahaira: 
 ### Yahaira
