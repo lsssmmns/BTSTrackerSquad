@@ -18,7 +18,7 @@
 #### Reactions
 - Alyssa: Like the map fullscreen  option.
 - Hannah:
-- Yahaira: 
+- Yahaira: Like the formatting of the map and the description of map under map rather than to the side. 
 ### Yahaira
 [<img src="/photos/Yahaira_MindMap.png" width="400"/>](Yahaira_MindMap.png)
 #### Reactions
@@ -44,7 +44,7 @@
 #### Reactions
 - Alyssa: Like the dropdown menu and song search options.
 - Hannah:
-- Yahaira: 
+- Yahaira: Interesting additional features to include. 
 ### Yahaira
 [<img src="/photos/Yahaira_CrazyEight.png" width="400"/>](Yahaira_CrazyEight.png)
 #### Reactions
