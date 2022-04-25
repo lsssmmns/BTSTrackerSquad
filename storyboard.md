@@ -17,7 +17,7 @@
 [<img src="/photos/mariana_mindmap.png" width="400"/>](mariana_mindmap.png)
 #### Reactions
 - Alyssa: Like the map fullscreen  option.
-- Hannah:
+- Hannah: Like the feature to add our personal touch in the corner.
 - Yahaira: Like the formatting of the map and the description of map under map rather than to the side. 
 ### Yahaira
 [<img src="/photos/Yahaira_MindMap.png" width="400"/>](Yahaira_MindMap.png)
@@ -43,7 +43,7 @@
 [<img src="/photos/mariana_crazyeights.png" width="400"/>](mariana_crazyeights.png)
 #### Reactions
 - Alyssa: Like the dropdown menu and song search options.
-- Hannah:
+- Hannah: Like the idea of having a search bar, very user friendly
 - Yahaira: Interesting additional features to include. 
 ### Yahaira
 [<img src="/photos/Yahaira_CrazyEight.png" width="400"/>](Yahaira_CrazyEight.png)
