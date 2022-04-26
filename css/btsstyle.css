@@ -5,6 +5,10 @@ body,html {
 	background-color: #ab74ba;
 }
 
+#im {
+    width: 2rem;
+}
+
 #map {
 	height: 100%;
 }
