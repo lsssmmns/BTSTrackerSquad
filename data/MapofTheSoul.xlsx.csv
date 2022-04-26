@@ -1,20 +1,20 @@
-start,end,tour,city,country,latitude,longitude,venue
-"April 11, 2020","April 12, 2020",Seoul ,South Korea,37.5159,127.0728,Seoul Olympic Stadium
-"April 18, 2020","April 19, 2020",Seoul ,South Korea,37.5159,127.0728,Seoul Olympic Stadium
-"April 25, 2020","April 26, 2020",Santa Clara ,United States ,37.4033,-121.9694,Levi's Stadium
-"May 2, 2020","May 5, 2020",Pasadena ,United States,34.1613,-118.1676,Rose Bowl
+start,end,city,country,latitude,longitude,venue
+"April 11, 2020","April 12, 2020",Seoul,South Korea,37.5159,127.0728,Seoul Olympic Stadium
+"April 18, 2020","April 19, 2020",Seoul,South Korea,37.5159,127.0728,Seoul Olympic Stadium
+"April 25, 2020","April 26, 2020",Santa Clara,United States ,37.4033,-121.9694,Levi's Stadium
+"May 2, 2020","May 5, 2020",Pasadena,United States,34.1613,-118.1676,Rose Bowl
 "May 9, 2020","May 10, 2020",Dallas,United States,32.7796,-96.7596,Cotton Bowl
 "May 14, 2020",,Orlando ,United States,28.539,-81.4028,Camping World Stadium
 "May 17, 2020",,Atlanta ,United States,33.7726,-84.3933,Bobby Dodd Stadium
 "May 23, 2020",,East Rutherhord,United States,40.8135,-74.0745,MetLife Stadium
 "May 24, 2020","May 27, 2020",East Rutherhord,United States,40.8135,-74.0745,MetLife Stadium
-"May 30, 2020","May 31, 2020",Toronto ,Canada,43.6418,-79.3891,Rogers Centre
-"June 5, 2020","June 6, 2020",Chicago ,United States,41.8623,-87.6167,Soldier Field
-"June 28, 2020","June 29, 2020",Fukuoka ,Japan,33.5954,130.3621,Fukuoka PayPay Dome
-"July 3, 2020","July 4, 2020",London ,England,51.456,-0.3415,Twickenham Stadium 
+"May 30, 2020","May 31, 2020",Toronto,Canada,43.6418,-79.3891,Rogers Centre
+"June 5, 2020","June 6, 2020",Chicago,United States,41.8623,-87.6167,Soldier Field
+"June 28, 2020","June 29, 2020",Fukuoka,Japan,33.5954,130.3621,Fukuoka PayPay Dome
+"July 3, 2020","July 4, 2020",London,England,51.456,-0.3415,Twickenham Stadium 
 "July 8, 2020",,Rotterdam,Netherlands,51.8939,4.5231,De Kuip
-"July 11, 2020","July 12, 2020",Berlin ,Germany ,52.5147,13.2395,Olympiastadion 
-"July 17, 2020","July 18, 2020",Barcelona ,Spain,41.3647,2.1557,Estadi Olímpic Lluís Companys
+"July 11, 2020","July 12, 2020",Berlin,Germany ,52.5147,13.2395,Olympiastadion 
+"July 17, 2020","July 18, 2020",Barcelona,Spain,41.3647,2.1557,Estadi Olímpic Lluís Companys
 "July 23, 2020","August 2, 2020",Osaka,Japan,34.6693,135.4761,Kyocera Doma Osaka
-"August 7, 2020","August 8, 2020",Saitama ,Japan,35.7686,139.4209,MetLife Dome 
+"August 7, 2020","August 8, 2020",Saitama,Japan,35.7686,139.4209,MetLife Dome 
 "September 1, 2020","September 2, 2020",Tokyo,Japan,35.7056,139.7519,Tokyo Dome 
