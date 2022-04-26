@@ -6,7 +6,8 @@ body,html {
 }
 
 #im {
-    width: 2rem;
+    width: 15rem;
+    margin-bottom: -15px;
 }
 
 #map {
@@ -86,7 +87,6 @@ body {
 .content {
 	grid-area: content;
     padding: 0px;
-    
 }
 
 .footer {
@@ -122,5 +122,5 @@ body {
 #event {
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
 }
