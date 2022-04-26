@@ -22,11 +22,18 @@ let tour_MotS;
 $( document ).ready(function() {
 	createMap(lat,lon,zl);
     // red
-	tour_RB = readCSV(path_RB, markers_RB, '#e42120', tour_RB);
+	tour_RB = readCSV(path_RB, markers_RB, '#cd4d5e', tour_RB, "The Red Bullet");
     // purple
-    tour_WU = readCSV(path_WU,markers_WU, '#696ec9', tour_WU);
+    tour_WU = readCSV(path_WU,markers_WU, '#ab74ba', tour_WU, "Wake Up: Open Your Eyes");
     // blue
-    tour_MotS = readCSV(path_MotS,markers_MotS, '#0458b4', tour_MotS);
+    tour_MotS = readCSV(path_MotS,markers_MotS, '#456a96', tour_MotS,"Map of the Soul");
+    let layers = {
+        "The Red Bullet 2014" : markers_RB,
+        "Wake Up: Open Your Eyes 2015" : markers_WU,
+        "Map of the Soul 2020" : markers_MotS
+    }
+
+    L.control.layers(null,layers).addTo(map)
 });
 
 // create the map
@@ -39,7 +46,7 @@ function createMap(lat,lon,zl){
 }
 
 // function to read csv data
-function readCSV(path, markers, tour_color, dataset){
+function readCSV(path, markers, tour_color, dataset, tour_name){
 	Papa.parse(path, {
 		header: true,
 		download: true,
@@ -47,16 +54,16 @@ function readCSV(path, markers, tour_color, dataset){
 			console.log(data);
             dataset = data;
             console.log(dataset);
-            mapCSV(markers, tour_color, data);
+            mapCSV(markers, tour_color, data, tour_name);
 		}
 	});
 }
 
-function mapCSV(markers, tour_color, data){
+function mapCSV(markers, tour_color, data, tour_name){
 
 	// circle options
 	let circleOptions = {
-		radius: 3,
+		radius: 4,
 		weight: 1,
 		color: 'white',
 		fillColor: tour_color,
@@ -69,13 +76,14 @@ function mapCSV(markers, tour_color, data){
 		// create a marker
 		let show = L.circleMarker([item.latitude,item.longitude],circleOptions);
         // diff message if only one day vs multiday
-        if(item.end != undefined){
+        if(item.end != ""){
+            console.log(item.end);
             show = show.on('mouseover',function(){
-			    this.bindPopup(`<div id="pop"><p id="event">${item.tour}</p><p><b>BTS performed at the ${item.venue} in ${item.city} from ${item.start} to ${item.end}</b></p></div>`).openPopup()
+			    this.bindPopup(`<div id="pop"><p id="event" style="color:${tour_color};">${tour_name}</p><p><b>BTS performed at the ${item.venue} in ${item.city} from ${item.start} to ${item.end}</b></p></div>`).openPopup()
             });
 		}else{
             show = show.on('mouseover',function(){
-			    this.bindPopup(`<div id="pop"><p id="event" style="color:${tour_color};">${item.tour}</p><p><b>BTS performed at the ${item.venue} in ${item.city} on ${item.start}</b></p></div>`).openPopup()
+			    this.bindPopup(`<div id="pop"><p id="event" style="color:${tour_color};">${tour_name}</p><p><b>BTS performed at the ${item.venue} in ${item.city} on ${item.start}</b></p></div>`).openPopup()
             });
         };
 
