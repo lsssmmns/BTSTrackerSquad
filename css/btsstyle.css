@@ -2,7 +2,9 @@ body,html {
 	margin:0;
 	height:100%;
 	width:100%;
-	background-color: #ab74ba;
+    color: white;
+	background-color: rgb(230, 110, 155);
+    text-decoration: none;
 }
 
 #im {
@@ -32,7 +34,7 @@ body,html {
 
 body {
 	display: grid;
-	grid-template-rows: 59px 1fr 19px;
+	grid-template-rows: 63px 1fr 19px;
 	grid-template-columns: 0px 1fr;
 	grid-template-areas: 
 	"header header"
@@ -41,6 +43,8 @@ body {
 }
 
 .header {
+    height: 100%;
+    text-decoration: none;
 	grid-area: header;
 	top: 0;
     left: 0;
@@ -50,11 +54,36 @@ body {
 	color: white;
     box-sizing: border-box;
     background: rgba(0,0,0,0.2);
-	font-size: 2em;
+	font-size: 2.2rem;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
     vertical-align: middle;
     font-family: 'Bebas Neue', cursive;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover{
+	color: rgb(255, 228, 146);
+}
+
+.header-right {
+    text-decoration: none;
+    float: right;
+    font-size: 1rem;
+    margin-top: -35px;
+    margin-right: 40px;
+}
+
+.header-left {
+    text-decoration: none;
+    float: left;
+    margin-top: -35px;
+    font-size: 1rem;
+    margin-left: 40px;
 }
 
 .sidebar {
@@ -82,6 +111,7 @@ body {
 
 .sidebar-item:hover{
 	color: rgb(255, 228, 146);
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
 }
 
 .content {
