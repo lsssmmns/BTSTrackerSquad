@@ -3,14 +3,30 @@ let map;
 let lat = 30;
 let lon = 25;
 let zl = 2;
-// path to csv data
-let path = "data/btsWikiAwardShows.csv";
-let shows = L.featureGroup();
+
+// red bullet tour data
+let path_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/RedBulletTour.xlsx.csv";
+let markers_RB = L.featureGroup();
+let tour_RB;
+// wake up tour data
+let path_WU = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/WakeUp.xlsx.csv";
+let markers_WU = L.featureGroup();
+let tour_WU;
+// map of the soul tour data
+let path_MotS = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/MapofTheSoul.xlsx.csv";
+let markers_MotS = L.featureGroup();
+let tour_MotS;
+
 
 // initialize
 $( document ).ready(function() {
 	createMap(lat,lon,zl);
-	readCSV(path);
+    // red
+	tour_RB = readCSV(path_RB, markers_RB, '#e42120', tour_RB);
+    // purple
+    tour_WU = readCSV(path_WU,markers_WU, '#696ec9', tour_WU);
+    // blue
+    tour_MotS = readCSV(path_MotS,markers_MotS, '#0458b4', tour_MotS);
 });
 
 // create the map
@@ -23,45 +39,52 @@ function createMap(lat,lon,zl){
 }
 
 // function to read csv data
-function readCSV(path){
+function readCSV(path, markers, tour_color, dataset){
 	Papa.parse(path, {
 		header: true,
 		download: true,
 		complete: function(data) {
 			console.log(data);
-			
-			// map the data
-			mapCSV(data);
-
+            dataset = data;
+            console.log(dataset);
+            mapCSV(markers, tour_color, data);
 		}
 	});
 }
 
-function mapCSV(data){
+function mapCSV(markers, tour_color, data){
 
 	// circle options
 	let circleOptions = {
 		radius: 3,
 		weight: 1,
 		color: 'white',
-		fillColor: 'rgb(230, 110, 155)',
+		fillColor: tour_color,
 		fillOpacity: 0.9
 	}
 
 	// loop through each entry
 	data.data.forEach(function(item,index){
+        console.log(item);
 		// create a marker
-		let show = L.circleMarker([item.Lat,item.Lon],circleOptions)
-		.on('mouseover',function(){
-			this.bindPopup(`<div id="pop"><p id="event">${item.Event}</p><p><b>BTS performed at the ${item.Venue} on ${item.Date}</b></p></div>`).openPopup()
-		})
+		let show = L.circleMarker([item.latitude,item.longitude],circleOptions);
+        // diff message if only one day vs multiday
+        if(item.end != undefined){
+            show = show.on('mouseover',function(){
+			    this.bindPopup(`<div id="pop"><p id="event">${item.tour}</p><p><b>BTS performed at the ${item.venue} in ${item.city} from ${item.start} to ${item.end}</b></p></div>`).openPopup()
+            });
+		}else{
+            show = show.on('mouseover',function(){
+			    this.bindPopup(`<div id="pop"><p id="event" style="color:${tour_color};">${item.tour}</p><p><b>BTS performed at the ${item.venue} in ${item.city} on ${item.start}</b></p></div>`).openPopup()
+            });
+        };
 
 		// add marker to featuregroup
-		shows.addLayer(show)
+		markers.addLayer(show)
 
     })
 
 	// add featuregroup to map
-	shows.addTo(map)
+	markers.addTo(map)
 
 }

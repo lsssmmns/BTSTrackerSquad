@@ -1,4 +1,4 @@
-start,end,city ,country ,latitude ,longitude ,venue 
+start,end,tour,city,country,latitude,longitude,venue
 "April 11, 2020","April 12, 2020",Seoul ,South Korea,37.5159,127.0728,Seoul Olympic Stadium
 "April 18, 2020","April 19, 2020",Seoul ,South Korea,37.5159,127.0728,Seoul Olympic Stadium
 "April 25, 2020","April 26, 2020",Santa Clara ,United States ,37.4033,-121.9694,Levi's Stadium
