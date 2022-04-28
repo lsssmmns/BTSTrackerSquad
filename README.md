@@ -53,12 +53,14 @@ We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's glo
 </table>
 
 ## Overview
-The purpose of this project is to understand and analyze the influence of South Korean pop group, Bangtan Boys (aka BTS) on several countries across the world.  
+The purpose of this project is to understand and analyze the influence of South Korean pop group, Bangtan Sonyeondan (aka BTS) on several countries across the world. Our goal is to communicate and contextualize their global impact and contributions to a wider audience.  
 
-BTS is inarguably one of the most well known music groups in the world. The band has broken many Guinness World records including the fastest time to reach 1 million followers on TikTok and highest viewed concert livestream. Although the group started in South Korea, they are globally adored. They are popular in several countries across North America, South America and Asia. Besides breaking music records across the world, BTS is also credited with being the most influential group for fashion in Japan <sup>(<a href="https://japantoday.com/category/features/lifestyle/survey-asks-which-country%E2%80%99s-fashion-is-the-most-influential-in-japanese-street-style" target="_blank">1</a>)</sup>. Some even argue that their popularity has increased interest in anything Korea: music, language and tourism <sup>(<a href="https://awkwardlyvain.com/2020/08/17/the-cultural-impact-of-the-k-pop-group-bts-around-the-world/" target="_blank">2</a>)</sup>. Needless to say, this group has had a great impact in several areas of culture, and our team is dedicated to analyzing their global influence by tracking their rise to fame in different countries across several continents in the world.
+BTS is inarguably one of the most well known music groups in the world. They debuted from a small, unrecognized entertainment company and paled in comparison to the three K-pop industry giants at the time. Ofter enduring heavy criticism from Korean media outlets for years, BTS perservered and rose to becoming one of the greatest performers to exist. The seven-member boy group has broken records across Spotify, YouTube, Billboard, and TikTok, and have even become the first South Korean act to be nominated for a Grammy. 
+
+Although the group started in South Korea, they are adored globally. They are popular in several countries across North America, South America and Asia. Besides breaking music records across the world, BTS is also credited with being the most influential group for fashion in Japan <sup>(<a href="https://japantoday.com/category/features/lifestyle/survey-asks-which-country%E2%80%99s-fashion-is-the-most-influential-in-japanese-street-style" target="_blank">1</a>)</sup>. Some even argue that their popularity has increased interest in anything Korea: music, language and tourism <sup>(<a href="https://awkwardlyvain.com/2020/08/17/the-cultural-impact-of-the-k-pop-group-bts-around-the-world/" target="_blank">2</a>)</sup>. Needless to say, this group has had a great impact in several areas of culture, and our team is dedicated to analyzing their global influence by tracking their rise to fame in different countries across several continents in the world.
 
 ## Methodology
-Web mapping is a personalizable tool that helps us display geographic data. With this, we are able to deliver information regarding global trends. Through mapping we are better able to visualize the global impact of BTS, as well as tracking their growth from their home country South Korea to now charting in various countries around the globe. 
+Web mapping is a personalizable tool that helps us display geographic data. With this, we are able to deliver information regarding global trends. Through mapping we are better able to visualize the global impact of BTS, as well as tracking their growth from their home country South Korea to now charting in various countries around the globe. Our interactive map will be based off of information from their tours, performances, and Spotify data.
 
 ## Workflow
 | Week |                            Goal                            |
@@ -83,7 +85,7 @@ Find the technologies and how we will be utilizing them for our project below:
 -   **Leaflet**: visualize geographical locations with this mapping library.
 
 ## Geographic scope
-Our aim is to research BTS’s growing popularity across the world to reflect trends in the globalization of K-pop. We will examine and collect data on a <b>global scale</b>.
+Our aim is to research BTS’s growing popularity across the world to reflect trends in the globalization of K-pop. We will examine and collect data on a <b>global scale</b>. 
 
 ## Data
-Our project will mainly capture data from <b><a href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html" target="_blank">BTS Spotify Chart History</a></b> and a <b>Spotify API</b> to acquire BTS Spotify streams statistics according to year and country. We also plan to manually enter country coordinates and release dates of songs, released by BTS, onto the existing dataset to better map the data.
+Our project will mainly capture data from <b><a href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html" target="_blank">BTS Spotify Chart History</a></b> and a <b>Spotify API</b> to acquire BTS Spotify streams statistics according to year and country. We also plan to manually enter country coordinates, release dates, and other information for their songs and performances across the globe. 
