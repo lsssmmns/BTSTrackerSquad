@@ -95,3 +95,6 @@ peak data, which refers to the date the song reached its highest chart rating.
 The linked data will be the second dataset used in creating the map of BTS's global expansion over the years. The following data features all the locations where BTS toured as well as the dates of the tours. The data will serve to support the narrative of BTS's rapid global expansion. This data will be separated into seven categories: Date, Event, City, Country, Venue, Latitude, and Longitude. Latitude and Longitude values will be added manually based on the venue locations.
 ### [BTS Takeover Timeline](https://www.billboard.com/music/music-news/bts-takeover-timeline-bbmas-8455612/)
 The linked data will be used to construct the timeline of BTS's musical success over the years. The data will serve to construct the foundation of our project's narrative. The timeline will give a brief history into the musical success of BTS through their career. 
+
+## Storyboard with Wireframing
+[<img src="/photos/Yahaira_Story_WireFrame.png" width="400"/>](Yahaira_Story_WireFrame.png)
