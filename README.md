@@ -16,7 +16,7 @@ We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's glo
 <tbody>
   <tr>
     <td>
-      <img align="left" width="200px" src="photos/alyssa.jpg">
+      <img align="left" width="200px" src="photos/alyssa.jpeg">
     </td>
     <td>
       Hi, I'm <b>Alyssa Simmons</b> and I will be the <b>Web Developer</b> for our team. I am a fourth year Electrical Engineering major and I am excited to learn more about interactive web design over the course of this project. 
