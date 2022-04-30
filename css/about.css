@@ -29,12 +29,11 @@ body,html {
 
 body {
 	display: grid;
-	grid-template-rows: 63px 1fr 19px;
+	grid-template-rows: 63px 1fr;
 	grid-template-columns: 350px 1fr;
 	grid-template-areas: 
 	"header header"
-	"sidebar content"
-	"footer footer";
+	"sidebar content";
 }
 
 .header {
@@ -100,6 +99,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .sidebar::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
@@ -136,6 +136,7 @@ body H1{
     text-align: center;
     font-family: 'Bebas Neue';
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .content::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
