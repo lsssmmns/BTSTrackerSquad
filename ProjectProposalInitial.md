@@ -88,15 +88,4 @@ Find the technologies and how we will be utilizing them for our project below:
 Our aim is to research BTS’s growing popularity across the world to reflect trends in the globalization of K-pop. We will examine and collect data on a <b>global scale</b>. 
 
 ## Data
-### [Spotify Chart History](https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html)
-The linked data will be the main dataset that will be used in creating the map of BTS's global expansion over the years. The dataset includes the chart standings of most, if not all, BTS songs, in every country, with the song's 
-peak data, which refers to the date the song reached its highest chart rating. 
-### [BTS Live Performances](https://en.wikipedia.org/wiki/List_of_BTS_live_performances#Tours)
-The linked data will be the second dataset used in creating the map of BTS's global expansion over the years. The following data features all the locations where BTS toured as well as the dates of the tours. The data will serve to support the narrative of BTS's rapid global expansion. This data will be separated into seven categories: Date, Event, City, Country, Venue, Latitude, and Longitude. Latitude and Longitude values will be added manually based on the venue locations.
-### [BTS Takeover Timeline](https://www.billboard.com/music/music-news/bts-takeover-timeline-bbmas-8455612/)
-The linked data will be used to construct the timeline of BTS's musical success over the years. The data will serve to construct the foundation of our project's narrative. The timeline will give a brief history into the musical success of BTS through their career. 
-
-## UX/UI
-Generally we want the site to be fun and sleek. We think it would be cool to mimic the BTS website so it’s fun for fans and conveys a sense of credibility on the subject matter. We would like to keep all the storytelling elements on one page, so it’s important to be very organized so as much information as possible can be fit into a small space (don’t want to have to scroll for hours). Some interesting features we want to implement are: a play button that shows the user the mapping data changes over a certain time period, have multiple overlapping datasets which can be added or removed from the map using checkboxes, and create start page that walks through the data narrative using a slideshow format. Our storyboard can be seen below. Click on it to see a more detailed description of our design process. 
-[<img src="/photos/Yahaira_Story_WireFrame.png" width="400"/>](https://github.com/lsssmmns/BTSTrackerSquad/blob/main/storyboard.md)
-
+Our project will mainly capture data from <b><a href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html" target="_blank">BTS Spotify Chart History</a></b> and a <b>Spotify API</b> to acquire BTS Spotify streams statistics according to year and country. We also plan to manually enter country coordinates, release dates, and other information for their songs and performances across the globe. 
