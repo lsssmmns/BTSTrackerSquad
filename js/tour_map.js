@@ -9,12 +9,17 @@ let max_cap = 92100;
 let path_MotS = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/MapofTheSoul.xlsx.csv";
 let markers_MotS = L.featureGroup();
 let tour_MotS;
-let im_MotS = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/MotS.jpg";
+let im_MotS = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/MotS.jpeg";
 // wings tour data
 let path_W = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/Wings.csv";
 let markers_W = L.featureGroup();
 let tour_W;
-let im_W = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/W.jpg";
+let im_W = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/wings.jpg";
+// tmbmil tour data
+let path_tmbmil = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/TMBMIL.csv";
+let markers_tmbmil = L.featureGroup();
+let tour_tmbmil;
+let im_tmbmil = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/TMBMIL.png";
 // wake up tour data
 let path_WU = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/WakeUp.xlsx.csv";
 let markers_WU = L.featureGroup();
@@ -31,16 +36,19 @@ let im_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/pho
 $( document ).ready(function() {
 	createMap(lat,lon,zl);
 	// purple
-    tour_MotS = readCSV(path_MotS,markers_MotS, '#876cac', tour_MotS,"Map of the Soul", im_MotS);
+    tour_MotS = readCSV(path_MotS, markers_MotS, '#876cac', tour_MotS,"Map of the Soul", im_MotS);
     // blue 
-    tour_W = readCSV(path_W,markers_W, '#1a2a62', tour_W, "Wings", im_W);
-    // yellow
-    tour_WU = readCSV(path_WU,markers_WU, '#e19a0c', tour_WU, "Wake Up: Open Your Eyes", im_WU);
+    tour_W = readCSV(path_W, markers_W, '#1a2a62', tour_W, "Wings", im_W);
+    //pink
+	tour_tmbmil = readCSV(path_tmbmil, markers_tmbmil, '#426b7e', tour_tmbmil, "The Most Beautiful Moment in Life", im_tmbmil);
+	// yellow
+    tour_WU = readCSV(path_WU, markers_WU, '#e19a0c', tour_WU, "Wake Up: Open Your Eyes", im_WU);
 	// red
 	tour_RB = readCSV(path_RB, markers_RB, '#cd4d5e', tour_RB, "The Red Bullet", im_RB);
     let layers = {
         "Map of the Soul 2020" : markers_MotS,
 		"Wings 2017" : markers_W,
+		"The Most Beautiful Moment in Life 2016" : markers_tmbmil,
         "Wake Up: Open Your Eyes 2015" : markers_WU,
         "The Red Bullet 2014" : markers_RB
     }
