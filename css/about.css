@@ -154,6 +154,9 @@ body H1{
     color: #442a34;
 }
 
+.main{
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
+}
 
 .main:before {
     content:'';
