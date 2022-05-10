@@ -5,36 +5,44 @@ let lon = 25;
 let zl = 2;
 let max_cap = 92100;
 
-// red bullet tour data
-let path_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/RedBulletTour.xlsx.csv";
-let markers_RB = L.featureGroup();
-let tour_RB;
-let im_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/rb.jpg";
-// wake up tour data
-let path_WU = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/WakeUp.xlsx.csv";
-let markers_WU = L.featureGroup();
-let tour_WU;
-let im_WU = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/wu.jpg";
 // map of the soul tour data
 let path_MotS = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/MapofTheSoul.xlsx.csv";
 let markers_MotS = L.featureGroup();
 let tour_MotS;
 let im_MotS = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/MotS.jpg";
+// wings tour data
+let path_W = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/Wings.csv";
+let markers_W = L.featureGroup();
+let tour_W;
+let im_W = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/W.jpg";
+// wake up tour data
+let path_WU = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/WakeUp.xlsx.csv";
+let markers_WU = L.featureGroup();
+let tour_WU;
+let im_WU = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/wu.jpg";
+// red bullet tour data
+let path_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/RedBulletTour.xlsx.csv";
+let markers_RB = L.featureGroup();
+let tour_RB;
+let im_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/rb.jpg";
 
 
 // initialize
 $( document ).ready(function() {
 	createMap(lat,lon,zl);
-    // red
-	tour_RB = readCSV(path_RB, markers_RB, '#cd4d5e', tour_RB, "The Red Bullet", im_RB);
+	// purple
+    tour_MotS = readCSV(path_MotS,markers_MotS, '#876cac', tour_MotS,"Map of the Soul", im_MotS);
+    // blue 
+    tour_W = readCSV(path_W,markers_W, '#1a2a62', tour_W, "Wings", im_W);
     // yellow
     tour_WU = readCSV(path_WU,markers_WU, '#e19a0c', tour_WU, "Wake Up: Open Your Eyes", im_WU);
-    // blue
-    tour_MotS = readCSV(path_MotS,markers_MotS, '#456a96', tour_MotS,"Map of the Soul", im_MotS);
+	// red
+	tour_RB = readCSV(path_RB, markers_RB, '#cd4d5e', tour_RB, "The Red Bullet", im_RB);
     let layers = {
-        "The Red Bullet 2014" : markers_RB,
+        "Map of the Soul 2020" : markers_MotS,
+		"Wings 2017" : markers_W,
         "Wake Up: Open Your Eyes 2015" : markers_WU,
-        "Map of the Soul 2020" : markers_MotS
+        "The Red Bullet 2014" : markers_RB
     }
 
     L.control.layers(null,layers).addTo(map)
@@ -65,6 +73,14 @@ function readCSV(path, markers, tour_color, dataset, tour_name, pic){
 
 function mapCSV(markers, tour_color, data, tour_name, pic){
 
+	// // circle options
+	// let circleOptions = {
+	// 	radius: 5,
+	// 	weight: 1,
+	// 	color: 'white',
+	// 	fillColor: tour_color,
+	// 	fillOpacity: 0.9
+	// }
 	// loop through each entry
 	data.data.forEach(function(item,index){
 		console.log(item.capacity)
@@ -74,7 +90,7 @@ function mapCSV(markers, tour_color, data, tour_name, pic){
 			weight: 1,
 			color: 'white',
 			fillColor: tour_color,
-			fillOpacity: 0.9
+			fillOpacity: 0.7
 		}
         console.log(item);
 		// create a marker
