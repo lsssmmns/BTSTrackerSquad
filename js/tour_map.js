@@ -3,6 +3,7 @@ let map;
 let lat = 30;
 let lon = 25;
 let zl = 2;
+let max_cap = 92100;
 
 // red bullet tour data
 let path_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/RedBulletTour.xlsx.csv";
@@ -64,23 +65,22 @@ function readCSV(path, markers, tour_color, dataset, tour_name, pic){
 
 function mapCSV(markers, tour_color, data, tour_name, pic){
 
-	// circle options
-	let circleOptions = {
-		radius: 4,
-		weight: 1,
-		color: 'white',
-		fillColor: tour_color,
-		fillOpacity: 0.9
-	}
-
 	// loop through each entry
 	data.data.forEach(function(item,index){
+		console.log(item.capacity)
+		// circle options
+		let circleOptions = {
+			radius: 100*item.capacity/max_cap,
+			weight: 1,
+			color: 'white',
+			fillColor: tour_color,
+			fillOpacity: 0.9
+		}
         console.log(item);
 		// create a marker
 		let show = L.circleMarker([item.latitude,item.longitude],circleOptions);
         // diff message if only one day vs multiday
         if(item.end != ""){
-            console.log(item.end);
             show = show.on('mouseover',function(){
 			    this.bindPopup(`<div id="pop"><p id="event" style="color:${tour_color};">${tour_name}</p><img id=im src="${pic}"><p><b>BTS performed at the ${item.venue} in ${item.city} from ${item.start} to ${item.end}</b></p></div>`).openPopup()
             });
