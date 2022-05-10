@@ -6,6 +6,20 @@ body,html {
     text-decoration: none;
 }
 
+/* legend stuff */
+.legendlabel{
+    text-align: center;    
+    font-family: 'Bebas Neue', cursive;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2px;
+}
+
 #im {
     width: 15rem;
     margin-bottom: -15px;

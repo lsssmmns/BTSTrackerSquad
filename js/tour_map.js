@@ -46,14 +46,15 @@ $( document ).ready(function() {
 	// red
 	tour_RB = readCSV(path_RB, markers_RB, '#cd4d5e', tour_RB, "The Red Bullet", im_RB);
     let layers = {
-        "Map of the Soul 2020" : markers_MotS,
-		"Wings 2017" : markers_W,
-		"The Most Beautiful Moment in Life 2016" : markers_tmbmil,
-        "Wake Up: Open Your Eyes 2015" : markers_WU,
-        "The Red Bullet 2014" : markers_RB
+        "<span class='legendlabel'><span class='dot' style='background-color: #876cac';></span> Map of the Soul 2020</span>" : markers_MotS,
+		"<span class='legendlabel'><span class='dot' style='background-color: #1a2a62';></span> Wings 2017</span>" : markers_W,
+		"<span class='legendlabel'><span class='dot' style='background-color: #426b7e';></span> The Most Beautiful Moment in Life 2016</span>" : markers_tmbmil,
+        "<span class='legendlabel'><span class='dot' style='background-color: #e19a0c';></span> Wake Up: Open Your Eyes 2015</span>" : markers_WU,
+        "<span class='legendlabel'><span class='dot' style='background-color: #cd4d5e';></span> The Red Bullet 2014</span>" : markers_RB
     }
 
-    L.control.layers(null,layers).addTo(map)
+    L.control.layers(null,layers).addTo(map);
+		
 });
 
 // create the map
