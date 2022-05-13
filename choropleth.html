@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/jpg" href="photos/bts2.jpg" />
+
+	<title>BTS: Map Room</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/choropleth.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <!-- papaparse for csv data -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+	<!-- classy brew -->
+	<script src="js/classybrew.js"></script>
+
+</head>
+<body style="background-color: #876cac;">
+
+	<div class="header">
+        <div class="main">
+            <a href="https://lsssmmns.github.io/BTSTrackerSquad/map.html">BTS Tracker Squad</a>
+        </div>
+        <div class="header-left">
+            <a href="https://lsssmmns.github.io/BTSTrackerSquad/about.html">ABOUT US</a>
+        </div>
+        <div class="header-right">
+            <a href="https://lsssmmns.github.io/BTSTrackerSquad/map.html">MAP ROOM</a>
+        </div>
+	</div>
+	<div class="sidebar">
+		<h1 class="title">
+			Spotify Chart History
+		</h1>
+		<p>
+			Description of this map
+		</p>
+		<section class="timeline">
+			<button autofocus onclick="mapGeoJSON('num_songs_2015')">2015</button>
+			<button onclick="mapGeoJSON('num_songs_2016')">2016</button>
+			<button onclick="mapGeoJSON('num_songs_2017')">2017</button>
+			<button onclick="mapGeoJSON('num_songs_2018')">2018</button>
+			<button onclick="mapGeoJSON('num_songs_2019')">2019</button>
+			<button onclick="mapGeoJSON('num_songs_2020')">2020</button>
+			<button onclick="mapGeoJSON('num_songs_2021')">2021</button>
+			<button onclick="mapGeoJSON('num_songs_2022')">2022</button>
+		</section>
+		<p>
+			Things to do still:
+			<li>add description</li>
+			<li>update popup to be more descriptive</li>
+			<li>add link to the header</li>
+		</p>
+
+	</div>
+	<div class="content">
+		<div id="map"></div>
+	</div>
+	<div class="footer">
+		Source: <a id="link" href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html"> kworb
+	</div>
+
+	<script src="js/choropleth.js"></script>
+
+</body>
+</html>

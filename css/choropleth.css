@@ -1,0 +1,239 @@
+body,html {
+	margin:0;
+	height:100%;
+	width:100%;
+    color: white;
+    text-decoration: none;
+}
+
+#im {
+    width: 15rem;
+    margin-bottom: -15px;
+}
+
+#map {
+	height: 100%;
+}
+
+#pic {
+    display: block;
+    text-align: center;
+    margin-top: -26px;
+    margin-left: -10px;
+    width: 109.5%;
+}
+
+#desc {
+    margin-left:8px;
+    margin-right:8px;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 63px 1fr 19px;
+	grid-template-columns: 350px 1fr;
+	grid-template-areas: 
+	"header header"
+	"sidebar content"
+	"footer footer";
+}
+
+.header {
+    height: 100%;
+    text-decoration: none;
+	grid-area: header;
+	top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    width: 100%;
+	color: white;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+	font-size: 2.2rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
+    vertical-align: middle;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover{
+	color: rgb(255, 255, 255);
+}
+
+.header-right a{
+    text-decoration: none;
+    float: right;
+    font-size: 1rem;
+    margin-top: -35px;
+    margin-right: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-left a{
+    text-decoration: none;
+    float: left;
+    margin-top: -35px;
+    font-size: 1rem;
+    margin-left: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+body H1{
+    color:rgb(255, 255, 255);
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: normal;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
+}
+
+.sidebar {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+	grid-area: sidebar;
+	padding:10px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.sidebar-item{
+	padding: 1px;
+	margin: 5px;
+	color:rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
+	cursor: pointer; /*cursor changes to hand when hovering*/
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.sidebar-item:hover{
+	color: rgb(255, 228, 146);
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
+}
+
+.content {
+	grid-area: content;
+    padding: 0px;
+}
+
+.content::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.footer {
+	grid-area: footer;
+	padding:0;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	color: white;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+	font-size: 1em;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
+    vertical-align: middle;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(255, 228, 146);
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
+}
+
+#pop {
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+#event {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+/* legend styles */
+.info {
+	padding: 6px 8px;
+	font: 14px/16px 'Bebas Neue', cursive;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	min-width: 100px;
+	min-height: 50px;
+    color:black;
+}
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+
+.legend {
+	line-height: 18px;
+	color: #555;
+}
+.legend i {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 8px;
+	opacity: 0.7;
+}
+
+/* timeline */
+.timeline{
+    text-align: center;
+    margin: 0;
+    margin-right:10px;
+}
+
+button {
+	font: 14px/16px 'Bebas Neue', cursive;
+	background-color: rgb(255, 228, 146);
+    border: none;
+    color: #5b4876;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #5b4876;
+    color: rgb(255, 228, 146);;
+}
+
+button:focus{
+    background-color: #5b4876;
+    color: rgb(255, 228, 146);
+    outline: 0;
+}
