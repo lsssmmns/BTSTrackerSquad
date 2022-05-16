@@ -83,12 +83,21 @@ body {
 	color: rgb(255, 255, 255);
 }
 
-.header-right a{
+.header-right1 a{
     text-decoration: none;
     float: right;
     font-size: 1rem;
     margin-top: -35px;
     margin-right: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-right2 a{
+    text-decoration: none;
+    float: right;
+    font-size: 1rem;
+    margin-top: -35px;
+    margin-right: 90px;
     color: rgba(255, 255, 255, 0.8);
 }
 
