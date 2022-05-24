@@ -224,13 +224,13 @@ $(".slider").ionRangeSlider({
 	type: "single",
 	skin: "flat",
 	grid: true,
-	values: [
-		2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
-	],
 	max: 2022,
 	min: 2015,
 	step: 1,
 	from: 2015,
+	values: [
+		2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
+	],
 });
 
 $(".slider").on("change", function () {
