@@ -97,6 +97,7 @@ body H1{
 /* Map Stuff */
 #map {
 	height: 100%;
+    margin: 0 auto;
 }
 
 .content {
@@ -141,7 +142,7 @@ body H1{
 /* Slider */
 #timeline{
     grid-area: slider;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(161, 72, 72);
     text-align: center;
     position: absolute;
     margin: 0;

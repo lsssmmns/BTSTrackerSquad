@@ -145,13 +145,13 @@ Build date: 2019-12-19 16:51:02
   .irs--flat .irs-line {
     top: 25px;
     height: 12px;
-    background-color: #e1e4e9;
+    background-color: rgba(91, 72, 118,0.4);
     border-radius: 4px;
   }
   .irs--flat .irs-bar {
     top: 25px;
     height: 12px;
-    background-color: rgb(255, 228, 146);
+    background-color: rgb(91, 72, 118);
   }
   .irs--flat .irs-bar--single {
     border-radius: 4px 0 0 4px;
@@ -159,7 +159,7 @@ Build date: 2019-12-19 16:51:02
   .irs--flat .irs-shadow {
     height: 1px;
     bottom: 16px;
-    background-color: #e1e4e9;
+    background-color: rgb(91, 72, 118);
   }
   .irs--flat .irs-handle {
     top: 22px;
@@ -175,33 +175,35 @@ Build date: 2019-12-19 16:51:02
     width: 2px;
     height: 100%;
     margin-left: -1px;
-    background-color: rgb(255, 228, 146);
+    background-color: rgb(91, 72, 118);
   }
   .irs--flat .irs-handle.state_hover > i:first-child,
   .irs--flat .irs-handle:hover > i:first-child {
-    background-color: rgb(255, 228, 146);
+    background-color: rgb(91, 72, 118);
   }
   .irs--flat .irs-min,
   .irs--flat .irs-max {
     top: 0;
     padding: 1px 3px;
     width: 20px;
-    color: rgba(91, 72, 118, 0.8);
+    color: rgb(242,239,233);
+    margin-left: -5px;
+    margin-right: -5px;
     font-size: 10px;
     line-height: 1.333;
     text-shadow: none;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(91, 72, 118, 0.8);
     border-radius: 4px;
   }
   .irs--flat .irs-from,
   .irs--flat .irs-to,
   .irs--flat .irs-single {
-    color: rgb(91, 72, 118);
+    color: rgb(255, 228, 146);
     font-size: 10px;
     line-height: 1.333;
     text-shadow: none;
     padding: 1px 5px;
-    background-color: rgb(255, 228, 146);
+    background-color: rgb(91, 72, 118);
     border-radius: 4px;
   }
   .irs--flat .irs-from:before,
@@ -217,13 +219,13 @@ Build date: 2019-12-19 16:51:02
     margin-left: -3px;
     overflow: hidden;
     border: 3px solid transparent;
-    border-top-color: rgb(255, 228, 146);;
+    border-top-color: rgb(91, 72, 118);
   }
   .irs--flat .irs-grid-pol {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(91, 72, 118, 0.8);
   }
   .irs--flat .irs-grid-text {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(91, 72, 118, 0.8);
   }
   .irs--big {
     height: 55px;

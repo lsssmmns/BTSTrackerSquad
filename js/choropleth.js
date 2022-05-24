@@ -230,6 +230,7 @@ $(".slider").ionRangeSlider({
 	step: 1,
 	grid_num: 8,
 	grid_snap: true,
+	decorate_both: false,
 	// values: [
 		// 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
 	// ],
@@ -239,12 +240,6 @@ $(".slider").on("change", function () {
 	var $inp = $(this);
 	var year = $inp.prop("value"); // reading input year
 	mapGeoJSON(year);
-	}
-);
-
-$(".slider").on("start", function () {
-	var $inp = $(this);
-	$inp.prop(data.from);
 	}
 );
 
