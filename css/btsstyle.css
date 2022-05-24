@@ -9,11 +9,21 @@ body,html {
 body {
 	display: grid;
 	grid-template-rows: 63px 1fr 19px;
-	grid-template-columns: 0px 1fr;
+	grid-template-columns: 350px 1fr;
 	grid-template-areas: 
 	"header header"
 	"sidebar content"
 	"footer footer";
+}
+
+body H1{
+    color:rgb(255, 255, 255);
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: normal;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
 }
 
 /* Header */
@@ -161,14 +171,16 @@ body {
 /* Sidebar */
 .sidebar {
     font-size: 16px;
-	color: #442a34;
+    color: rgb(68, 42, 52);
 	grid-area: sidebar;
 	padding:10px;
-	overflow:-moz-hidden-unscrollable;
-    line-height: 28px;
+    line-height: 20px;
     letter-spacing: -0.02em;
     font-family: 'Roboto', sans-serif;
-    text-align: justify;
+    text-align: left;
+    margin-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar { 
