@@ -38,7 +38,7 @@ function getGeoJSON(){
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON(2015)
+		mapGeoJSON(2015);
 	})
 }
 
@@ -226,17 +226,25 @@ $(".slider").ionRangeSlider({
 	grid: true,
 	max: 2022,
 	min: 2015,
-	step: 1,
 	from: 2015,
-	values: [
-		2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
-	],
+	step: 1,
+	grid_num: 8,
+	grid_snap: true,
+	// values: [
+		// 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
+	// ],
 });
 
 $(".slider").on("change", function () {
 	var $inp = $(this);
 	var year = $inp.prop("value"); // reading input year
 	mapGeoJSON(year);
+	}
+);
+
+$(".slider").on("start", function () {
+	var $inp = $(this);
+	$inp.prop(data.from);
 	}
 );
 

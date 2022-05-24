@@ -193,12 +193,6 @@ Build date: 2019-12-19 16:51:02
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 4px;
   }
-  .irs--flat .irs-min{
-      float: left;
-  }
-  .irs--flat .irs-max{
-      float: right;
-  }
   .irs--flat .irs-from,
   .irs--flat .irs-to,
   .irs--flat .irs-single {
