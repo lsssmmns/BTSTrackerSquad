@@ -38,21 +38,24 @@ function getGeoJSON(){
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON('num_songs_2015')
-		
-		// add playlist
-		openPlaylist(event, 2015)
-
+		mapGeoJSON(2015)
 	})
 }
 
 // function to map a geojson file
-function mapGeoJSON(field){
+function mapGeoJSON(year){
 
 	// clear layers in case it has been mapped already
 	if (geojson_layer){
 		geojson_layer.clearLayers()
 	}
+
+	var datasets = [
+		'num_songs_2015', 'num_songs_2016', 'num_songs_2017', 'num_songs_2018', 'num_songs_2019', 'num_songs_2020', 'num_songs_2021', 'num_songs_2022'
+	];
+	console.log(year-2015);
+
+	var field = datasets[year-2015];
 	
 	// globalize the field to map
 	fieldtomap = field;
@@ -89,6 +92,10 @@ function mapGeoJSON(field){
 
     // create the infopanel
 	createInfoPanel();
+
+	
+	// add playlist
+	openPlaylist(year);
 }
 
 // style each feature
@@ -213,8 +220,28 @@ function createInfoPanel(){
 	info_panel.addTo(map);
 }
 
+$(".slider").ionRangeSlider({
+	type: "single",
+	skin: "flat",
+	grid: true,
+	values: [
+		2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
+	],
+	max: 2022,
+	min: 2015,
+	step: 1,
+	from: 2015,
+});
+
+$(".slider").on("change", function () {
+	var $inp = $(this);
+	var year = $inp.prop("value"); // reading input year
+	mapGeoJSON(year);
+	}
+);
+
 // add year playlist to screen
-function openPlaylist(evt, Year) {
+function openPlaylist(Year) {
 	var i, tabcontent, tablinks;
 	tabcontent = document.getElementsByClassName("tabcontent");
 	for (i = 0; i < tabcontent.length; i++) {
@@ -225,5 +252,5 @@ function openPlaylist(evt, Year) {
 	  tablinks[i].className = tablinks[i].className.replace(" active", "");
 	}
 	document.getElementById(Year).style.display = "block";
-	evt.currentTarget.className += " active";
+	// e.currentTarget.className += " active";
 }

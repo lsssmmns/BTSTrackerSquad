@@ -26,7 +26,13 @@ body H1{
 }
 
 body H3{
-    color: #e4b059;
+    color: #ffd62c;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue';
+}
+
+body p{
+    opacity: 0.8;
 }
 
 /* Header */
@@ -92,4 +98,11 @@ body H3{
     font-size: 1rem;
     margin-left: 90px;
     color: rgba(255, 255, 255, 0.8);
+}
+
+/* content */
+.content {
+	grid-area: content;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
 }

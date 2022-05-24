@@ -15,7 +15,11 @@
 
 	<!-- jquery -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+	<!--Plugin CSS file with desired skin-->
+	<link rel="stylesheet" href="css/ion.rangeSlider.css"/>
+	<!--Plugin JavaScript file-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+	
 	<!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +32,7 @@
 	<script src="js/classybrew.js"></script>
 
 </head>
-<body style="background-color: #876cac;">
+<body style="background-color:#876cac">
 
 	<div class="header">
         <div class="main">
@@ -58,19 +62,17 @@
 			<br>
 			<i>To use the map</i> : <br>Click on the year of interest to view the songs charted by BTS in the requested year. <br> To learn more about the charted songs in a country, click on the country of interest and check out the pop-up in the top right corner. <br><br>
 		</p>
-		<section class="timeline">
+		<!-- <section class="timeline">
 
-			<button autofocus onclick="mapGeoJSON('num_songs_2015');openPlaylist(event, '2015')">2015</button>
-			<button onclick="mapGeoJSON('num_songs_2016');openPlaylist(event, '2016')">2016</button>
-			<button onclick="mapGeoJSON('num_songs_2017');openPlaylist(event, '2017')">2017</button>
-			<button onclick="mapGeoJSON('num_songs_2018');openPlaylist(event, '2018')">2018</button>
-			<button onclick="mapGeoJSON('num_songs_2019');openPlaylist(event, '2019')">2019</button>
-			<button onclick="mapGeoJSON('num_songs_2020');openPlaylist(event, '2020')">2020</button>
-			<button onclick="mapGeoJSON('num_songs_2021');openPlaylist(event, '2021')">2021</button>
-			<button onclick="mapGeoJSON('num_songs_2022');openPlaylist(event, '2022')">2022</button>
-		</section>
-
-		<br>
+			<button autofocus onclick="mapGeoJSON(2015)">2015</button>
+			<button onclick="mapGeoJSON(2016)">2016</button>
+			<button onclick="mapGeoJSON(2017)">2017</button>
+			<button onclick="mapGeoJSON(2018)">2018</button>
+			<button onclick="mapGeoJSON(2019)">2019</button>
+			<button onclick="mapGeoJSON(2020)">2020</button>
+			<button onclick="mapGeoJSON(2021)">2021</button>
+			<button onclick="mapGeoJSON(2022)">2022</button>
+		</section> -->
 
 		<div id="2015" class="tabcontent">
 			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Q1BF8ny1SDA74TfjyREsW?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -108,6 +110,12 @@
 
 	<div class="content">
 		<div id="map"></div>
+		<!-- <div id="timeline">
+			<input type="text" class="slider" name="my_range" value=""/>
+		</div> -->
+		<div style="text-align:center;width:95%;margin:0 auto;">
+			<input type="text" class="slider" name="my_range" value=""/>
+		</div>
 	</div>
 
 	<div class="footer">

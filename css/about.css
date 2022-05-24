@@ -24,6 +24,13 @@ body H1{
     text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
 }
 
+body H3{
+    color:rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue';
+}
+
 /* Header */
 .header {
     height: 100%;
