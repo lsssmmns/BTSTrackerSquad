@@ -48,6 +48,7 @@
 
 		  
 	</div>
+
 	<div class="sidebar">
 		<h1 class="title">
 			Spotify Chart History
@@ -69,65 +70,46 @@
 			<button onclick="mapGeoJSON('num_songs_2022');openPlaylist(event, '2022')">2022</button>
 		</section>
 
-<br>
+		<br>
 
+		<div id="2015" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Q1BF8ny1SDA74TfjyREsW?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2015" class="tabcontent">
-	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Q1BF8ny1SDA74TfjyREsW?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-  
-</div>
+		<div id="2016" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7Gw0zXQvLg6iE5mDcpyKQK?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2016" class="tabcontent">
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7Gw0zXQvLg6iE5mDcpyKQK?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
+		<div id="2017" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1zn2aC9OHsiYSoCi9rid1d?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2017" class="tabcontent">
-	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1zn2aC9OHsiYSoCi9rid1d?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
+		<div id="2018" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/30nJwGLfdUU9XyspBQCcJE?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2018" class="tabcontent">
-	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/30nJwGLfdUU9XyspBQCcJE?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
+		<div id="2019" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4RIrfm8Bf7AI6aFPxElFwj?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2019" class="tabcontent">
-	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4RIrfm8Bf7AI6aFPxElFwj?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
+		<div id="2020" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6nyvMcwtiNWYrZN3kvQkdr?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2020" class="tabcontent">
-	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6nyvMcwtiNWYrZN3kvQkdr?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
+		<div id="2021" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3H6NT5GxVuSbbBGENZZdWV?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2021" class="tabcontent">
-	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3H6NT5GxVuSbbBGENZZdWV?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
+		<div id="2022" class="tabcontent">
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6f1SFx4z3mHX2HPOlzkypH?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
 
-<div id="2022" class="tabcontent">
-	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6f1SFx4z3mHX2HPOlzkypH?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</div>
-
-
-<script>
-function openPlaylist(evt, Year) {
-	var i, tabcontent, tablinks;
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-	  tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByClassName("tablinks");
-	for (i = 0; i < tablinks.length; i++) {
-	  tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-	document.getElementById(Year).style.display = "block";
-	evt.currentTarget.className += " active";
-  }
-</script>  
-
-
-
-</div>
-<div class="content">
-	<div id="map"></div>
 	</div>
+
+	<div class="content">
+		<div id="map"></div>
+	</div>
+
 	<div class="footer">
 		Source: <a id="link" href="https://kworb.net/spotify/artist/3Nrfpe0tUJi4K4DXYWgMUX.html"> kworb
 	</div>

@@ -11,6 +11,7 @@ let geojson_layer;
 let brew = new classyBrew();
 let legend = L.control({position: 'bottomright'});
 let info_panel = L.control();
+let breaks = [0,0,5,15,25,35,45];
 
 // initialize
 $( document ).ready(function() {
@@ -38,7 +39,10 @@ function getGeoJSON(){
 
 		// call the map function
 		mapGeoJSON('num_songs_2015')
-		// mapGeoJSON('pop_est')
+		
+		// add playlist
+		openPlaylist(event, 2015)
+
 	})
 }
 
@@ -69,7 +73,7 @@ function mapGeoJSON(field){
 
 	// set up the "brew" options
 	brew.setSeries(values);
-	brew.setNumClasses(4);
+	brew.setNumClasses(6);
 	brew.setColorCode('Purples');
 	brew.classify('equal_interval');
 
@@ -94,28 +98,36 @@ function getStyle(feature){
 		color: 'white',
 		weight: 1,
 		fill: true,
-		fillColor: brew.getColorInRange(feature.properties[fieldtomap]),
+		fillColor: getColor(feature.properties[fieldtomap]),
 		fillOpacity: 0.8
 	}
 }
 
 // return the color for each feature based on population count
+function getColor(d) {
+
+	return d > breaks[5]  ? 'rgb(84,39,143)' :
+		   d > breaks[4]  ? 'rgb(117,107,177)' :
+		   d > breaks[3]   ? 'rgb(158,154,200)' :
+		   d > breaks[2]   ? 'rgb(188,189,220)' :
+		   d > breaks[1]   ? 'rgb(218,218,235)' :
+					  'rgb(242,240,247)';
+}
+
+// good rainbow for colorblindness
 // function getColor(d) {
 
-// 	return d > 1000000000 ? '#800026' :
-// 		   d > 500000000  ? '#BD0026' :
-// 		   d > 200000000  ? '#E31A1C' :
-// 		   d > 100000000  ? '#FC4E2A' :
-// 		   d > 50000000   ? '#FD8D3C' :
-// 		   d > 20000000   ? '#FEB24C' :
-// 		   d > 10000000   ? '#FED976' :
-// 					  '#FFEDA0';
+// 	return d > breaks[5]  ? '#A5185D' :
+// 		   d > breaks[4]  ? '#FE6100' :
+// 		   d > breaks[3]  ? '#FFB000' :
+// 		   d > breaks[2]  ? '#6CC172' :
+// 		   d > breaks[1]  ? '#648FFF' :
+// 					  '#876CAC';
 // }
 
 function createLegend(){
 	legend.onAdd = function (map) {
 		var div = L.DomUtil.create('div', 'info legend'),
-		breaks = brew.getBreaks(),
 		labels = [],
 		from, to;
 		console.log(breaks);
@@ -123,16 +135,16 @@ function createLegend(){
 		for (var i = 0; i < breaks.length - 1; i++) {
 			from = breaks[i];
 			to = breaks[i + 1];
-			// let fromplus = parseInt(from)+1;
+			let fromplus = parseInt(from)+1;
 			if(from != to) {
 				labels.push(
-					'<i style="background:' + brew.getColorInRange(to) + '"></i> ' +
-					from.toFixed(2) + ' &ndash; ' + to.toFixed(2));
+					'<i style="background:' + getColor(to) + '"></i> ' +
+					fromplus.toFixed(2) + ' &ndash; ' + to.toFixed(2));
 					// from.toFixed(2) + ' &ndash; ' + to.toFixed(2));
 			} 
 			else {
 				labels.push(
-					'<i style="background:' + brew.getColorInRange(to) + '"></i> ' +
+					'<i style="background:' + getColor(to) + '"></i> ' +
 					to.toFixed(2));
 					// from.toFixed(2) + ' &ndash; ' + to.toFixed(2));
 			}
@@ -199,4 +211,19 @@ function createInfoPanel(){
 	};
 
 	info_panel.addTo(map);
+}
+
+// add year playlist to screen
+function openPlaylist(evt, Year) {
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	  tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	  tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(Year).style.display = "block";
+	evt.currentTarget.className += " active";
 }
