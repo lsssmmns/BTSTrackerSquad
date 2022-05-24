@@ -6,27 +6,6 @@ body,html {
     text-decoration: none;
 }
 
-#im {
-    width: 15rem;
-    margin-bottom: -15px;
-}
-
-#pic {
-    display: block;
-    text-align: center;
-    margin-top: -26px;
-    margin-left: -10px;
-    width: 109.5%;
-}
-
-#desc {
-    margin-left:8px;
-    margin-right:8px;
-    margin-top: 30px;
-    font-size: 15px;
-    line-height: 26px;
-}
-
 body {
 	display: grid;
 	grid-template-rows: 63px 1fr;
@@ -36,6 +15,16 @@ body {
 	"sidebar content";
 }
 
+body H1{
+    color:rgb(255, 255, 255);
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: normal;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
+}
+
+/* Header */
 .header {
     height: 100%;
     text-decoration: none;
@@ -82,12 +71,21 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.header-left a{
+.header-left1 a{
     text-decoration: none;
     float: left;
     margin-top: -35px;
     font-size: 1rem;
     margin-left: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-left2 a{
+    text-decoration: none;
+    float: left;
+    margin-top: -35px;
+    font-size: 1rem;
+    margin-left: 90px;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -110,17 +108,9 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
 .sidebar::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
-}
-
-body H1{
-    color:rgb(255, 255, 255);
-    font-family: 'Bebas Neue';
-    letter-spacing: 2px;
-    font-size: 30px;
-    font-weight: normal;
-    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px;
 }
 
 .sidebar-item{
@@ -147,6 +137,7 @@ body H1{
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
 .content::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
@@ -196,25 +187,6 @@ body H1{
     text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
     vertical-align: middle;
     font-family: 'Bebas Neue', cursive;
-}
-
-#link {
-    text-decoration: none;
-    color: rgb(255, 228, 146);
-    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
-}
-
-#pop {
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
-    vertical-align: middle;
-    font-family: 'Roboto', sans-serif;
-}
-
-#event {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2em;
-    margin-bottom: 0px;
 }
 
 * {box-sizing:border-box}

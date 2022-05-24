@@ -53,7 +53,7 @@ $( document ).ready(function() {
         "<span class='legendlabel'><span class='dot' style='background-color: #cd4d5e';></span> The Red Bullet 2014</span>" : markers_RB
     }
 
-    L.control.layers(null,layers).addTo(map);
+    L.control.layers(null,layers,{collapsed:false}).addTo(map);
 		
 });
 

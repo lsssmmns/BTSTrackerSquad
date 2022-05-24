@@ -1,0 +1,82 @@
+/* Body */
+body,html {
+	margin:0;
+	height:100%;
+	width:100%;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 63px 1fr;
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+	"header"
+	"content";
+}
+
+/* Header */
+.header {
+    height: 100%;
+    text-decoration: none;
+	grid-area: header;
+	top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    width: 100%;
+	color: white;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+	font-size: 2.2rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.27) 0px 0px 2px;
+    vertical-align: middle;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover{
+	color: rgb(255, 255, 255);
+}
+
+.header-right1 a{
+    text-decoration: none;
+    float: right;
+    font-size: 1rem;
+    margin-top: -35px;
+    margin-right: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-right2 a{
+    text-decoration: none;
+    float: right;
+    font-size: 1rem;
+    margin-top: -35px;
+    margin-right: 90px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-left1 a{
+    text-decoration: none;
+    float: left;
+    margin-top: -35px;
+    font-size: 1rem;
+    margin-left: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-left2 a{
+    text-decoration: none;
+    float: left;
+    margin-top: -35px;
+    font-size: 1rem;
+    margin-left: 90px;
+    color: rgba(255, 255, 255, 0.8);
+}
