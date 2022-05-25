@@ -1,0 +1,11 @@
+start,end,city,country,latitude,longitude,venue,capacity
+"May 4, 2019","May 5, 2019",Pasadena,United States,34.1613,-118.1676,Rose Bowl,88565
+"May 11, 2019","May 12, 2019",Chicago,United States,41.8623,-87.6167,Soldier Field,61500
+"May 18, 2019","May 19, 2019",East Rutherford,United States,40.8135,-74.0745,MetLife Stadium,82500
+"May 25, 2019","May 26, 2019",São Paulo,Brazil,-23.5276,-46.6786,Allianz Parque,55000
+"June 1, 2019","June 2, 2019",London,United Kingdom,51.5560,-0.2796,Wembley Stadium,75000
+"June 7, 2019","June 8, 2019",Paris,France,48.9245,2.3602,Stade de France,75000
+"July 6, 2019","July 7, 2019",Osaka,Japan,34.6141,135.5186,Yanmar Stadium Nagai,47816
+"July 13, 2019","July 14, 2019",Shizuoka,Japan,34.7435,137.9708,Shizuoka Stadium,50889
+"October 11, 2019","October 11, 2019",Riyadh,Saudi Arabia,24.7888,46.8390,King Fahd International Stadium,68752
+"October 26, 2019","October 29, 2019",Seoul,South Korea,37.5159,127.0728,Seoul Olympic Stadium,69950

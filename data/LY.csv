@@ -1,0 +1,21 @@
+start,end,city,country,latitude,longitude,venue,capacity
+"August 25, 2018","August 26, 2018",Seoul,South Korea,37.5159,127.0728,Seoul Olympic Stadium,69950
+"September 5, 2018","September 9, 2018",Los Angeles,United States,34.043,-118.2673,Staples Center,13000
+"September 12, 2018","September 12, 2018",Oakland,United States,37.7503,-122.2030,Oracle Arena,19596
+"September 15, 2018","September 16, 2018",Fort Worth,United States,32.7494,-97.3279,Fort Worth Convention Center,13500
+"September 20, 2018","September 23, 2018",Hamilton,Canada,43.2590,-79.8723,FirstOntario Centre,19000
+"September 28, 2018","September 29, 2018",Newark,United States,40.7335,-74.1711,Prudential Center,17500
+"October 2, 2018","October 3, 2018",Chicago,United States,41.8807,-87.6742,United Center,23500
+"October 6, 2018","October 6, 2018",New York City,United States,40.7571,-73.8458,Citi Field,41922
+"October 9, 2018","October 10, 2018",London,United Kingdom,51.5030,0.0032,The O2 Arena,20000
+"October 13, 2018","October 13, 2018",Amsterdam,Netherlands,52.3139,4.9385,Ziggo Dome,17000
+"October 16, 2018","October 17, 2018",Berlin,Germany,52.5063,13.4436,Mercedes-Benz Arena,17000
+"October 19, 2018","October 20, 2018",Paris ,France,48.8385,2.3786,AccorHotels Arena,20300
+"November 13, 2018","November 14, 2018",Tokyo,Japan,35.7056,139.7519,Tokyo Dome,55000
+"November 21, 2018","November 24, 2018",Osaka,Japan,34.6693,135.4761,Kyocera Dome Osaka,55000
+"December 8, 2018","December 9, 2018",Taoyuan,Taiwan,25.0003,121.2015,Taoyuan International Baseball Stadium,20000
+"January 12, 2019","January 13, 2019",Nagoya,Japan,35.1860,136.9474,Nagoya Dome,40500
+"January 19, 2019","January 19, 2019",Kallang,Singapore,1.3040,103.8748,Singapore National Stadium,75000
+"February 16, 2019","February 17, 2019",Fukuoka,Japan,33.5954,130.3621,Fukuoka Yahuoku Dome,47500
+"March 20, 2019","March 24, 2019",Chek Lap Kok,Hong Kong,22.3213,113.9433,AsiaWorld-Expo,14000
+"April 6, 2019","April 7, 2019",Bangkok,Thailand,13.7554,100.6222,Rajamangala National Stadium,51552
