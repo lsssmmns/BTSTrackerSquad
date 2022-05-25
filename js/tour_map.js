@@ -51,7 +51,7 @@ $( document ).ready(function() {
     // dark purple
     tour_SY = readCSV(path_SY, markers_SY, '#271c4b', tour_SY,"Speak Yourself", im_SY);
     // light blue
-    tour_LY = readCSV(path_LY, markers_LY, '#98cae7', tour_LY,"Love Yourself", im_LY);
+    tour_LY = readCSV(path_LY, markers_LY, '#76a9c7', tour_LY,"Love Yourself", im_LY);
     // dark blue 
     tour_W = readCSV(path_W, markers_W, '#38517c', tour_W, "Wings", im_W);
     //pink
@@ -63,7 +63,7 @@ $( document ).ready(function() {
     layers = {
         "<span class='legendlabel'><span class='dot' style='background-color: #876cac';></span> Map of the Soul 2020</span>" : markers_MotS,
         "<span class='legendlabel'><span class='dot' style='background-color: #271c4b';></span> Speak Yourself 2019</span>" : markers_SY,
-        "<span class='legendlabel'><span class='dot' style='background-color: #98cae7';></span> Love Yourself 2018</span>" : markers_LY,
+        "<span class='legendlabel'><span class='dot' style='background-color: #76a9c7';></span> Love Yourself 2018</span>" : markers_LY,
 		"<span class='legendlabel'><span class='dot' style='background-color: #38517c';></span> Wings 2017</span>" : markers_W,
 		"<span class='legendlabel'><span class='dot' style='background-color: #426b7e';></span> The Most Beautiful Moment in Life 2016</span>" : markers_tmbmil,
         "<span class='legendlabel'><span class='dot' style='background-color: #e19a0c';></span> Wake Up: Open Your Eyes 2015</span>" : markers_WU,
