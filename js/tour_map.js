@@ -4,6 +4,8 @@ let lat = 30;
 let lon = 25;
 let zl = 2;
 let max_cap = 92100;
+let legend = L.control({position: 'topright'});
+
 
 // map of the soul tour data
 let path_MotS = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/data/MapofTheSoul.xlsx.csv";
@@ -41,6 +43,10 @@ let markers_RB = L.featureGroup();
 let tour_RB;
 let im_RB = "https://raw.githubusercontent.com/lsssmmns/BTSTrackerSquad/main/photos/rb.jpg";
 let layers;
+// layer names listed 2014 to 2022
+let layer_names = ["<span class='legendlabel'><span class='dot' style='background-color: #38517c';></span> Wings 2017</span>","<span class='legendlabel'><span class='dot' style='background-color: #76a9c7';></span> Love Yourself 2018</span>",
+"<span class='legendlabel'><span class='dot' style='background-color: #271c4b';></span> Speak Yourself 2019</span>","<span class='legendlabel'><span class='dot' style='background-color: #876cac';></span> Map of the Soul 2020</span>",
+]
 
 
 // initialize
@@ -69,8 +75,10 @@ $( document ).ready(function() {
         "<span class='legendlabel'><span class='dot' style='background-color: #e19a0c';></span> Wake Up: Open Your Eyes 2015</span>" : markers_WU,
         "<span class='legendlabel'><span class='dot' style='background-color: #cd4d5e';></span> The Red Bullet 2014</span>" : markers_RB
     }
+	createLegend();
 
-    L.control.layers(null,layers,{collapsed:false}).addTo(map);
+    // L.control.layers(null,layers,{collapsed:false}).addTo(map);
+	// markers_SY.clearLayers();
 		
 });
 
@@ -141,3 +149,138 @@ function mapCSV(markers, tour_color, data, tour_name, pic){
 	markers.addTo(map)
 
 }
+
+function createLegend(){
+	legend.onAdd = function (map) {
+		var div = L.DomUtil.create('div', 'info legend'),
+		labels = ["<span class='legendlabel'><span class='dot' style='background-color: #876cac';></span> Map of the Soul 2020</span>",
+        "<span class='legendlabel'><span class='dot' style='background-color: #271c4b';></span> Speak Yourself 2019</span>",
+        "<span class='legendlabel'><span class='dot' style='background-color: #76a9c7';></span> Love Yourself 2018</span>",
+		"<span class='legendlabel'><span class='dot' style='background-color: #38517c';></span> Wings 2017</span>",
+		"<span class='legendlabel'><span class='dot' style='background-color: #426b7e';></span> The Most Beautiful Moment in Life 2016</span>",
+        "<span class='legendlabel'><span class='dot' style='background-color: #e19a0c';></span> Wake Up: Open Your Eyes 2015</span>",
+        "<span class='legendlabel'><span class='dot' style='background-color: #cd4d5e';></span> The Red Bullet 2014</span>"],
+		ids=['mots','sy','ly','w','tmbmil','wu','rb'];
+		
+		for (var i = 0; i < labels.length; i++) {
+			labels[i]=`<label class="container">`+labels[i]+`<input class="checkbox-effect checkbox-effect-2" type='checkbox' id=${ids[i]} value=${ids[i]} name=${ids[i]} onchange="ShowHideMarkers(this)" checked="checked"><span class="checkmark"></span></label>`;	
+		}
+		div.innerHTML = labels.join('<br>');
+		return div;
+	};
+	
+	legend.addTo(map);
+}
+
+// toggle markers on/off using legend
+function ShowHideMarkers(chkMarker){
+	var temp;
+	console.log(chkMarker.id);
+	switch(chkMarker.id){
+		case 'mots':
+			console.log('mots');
+			temp = markers_MotS;
+			break;
+		case 'sy':
+			console.log('sy');
+			temp = markers_SY;
+			break;
+		case 'ly':
+			console.log('ly');
+			temp = markers_LY;
+			break;
+		case 'w':
+			console.log('w');
+			temp = markers_W;
+			break;
+		case 'tmbmil':
+			console.log('tmbmil');
+			temp = markers_tmbmil;
+			break;
+		case 'wu':
+			console.log('wu');
+			temp = markers_WU;
+			break;
+		case 'rb':
+			console.log('tmbmil');
+			temp = markers_RB;
+			break;
+	}
+	
+	if(chkMarker.checked === true){
+		console.log("active");
+		temp.addTo(map);
+	}else{
+		console.log("inactive");
+		temp.removeFrom(map);
+	}
+}
+
+// slider
+$(".slider").ionRangeSlider({
+	type: "single",
+	skin: "flat",
+	grid: true,
+	max: 2020,
+	min: 2014,
+	from: 2014,
+	step: 1,
+	grid_num: 8,
+	grid_snap: true,
+	decorate_both: false,
+	// values: [
+		// 2014, 2015, 2016, 2017, 2018, 2019, 2020
+	// ],
+});
+
+$(".slider").on("change", function () {
+	var $inp = $(this);
+	var year = $inp.prop("value"); // reading input year
+	var id = 2020-year;
+	console.log(id===0);
+	// unclick all the tours
+	document.querySelectorAll('input[type="checkbox"]').forEach(e => e.checked = false);
+	const markers = [markers_MotS, markers_SY, markers_LY, markers_W, markers_tmbmil, markers_WU, markers_RB];
+	markers.forEach(e => e.removeFrom(map));
+	// markers_MotS.removeFrom(map);
+	// markers_SY.removeFrom(map);
+	// click the current year's tour on
+	switch(id){
+		case 0:
+			console.log('2020');
+			markers_MotS.addTo(map);
+			document.getElementById("mots").checked=true;
+			break;
+		case 1:
+			console.log('2019');
+			markers_SY.addTo(map);
+			document.getElementById("sy").checked=true;
+			break;
+		case 2:
+			console.log('2018');
+			markers_LY.addTo(map);
+			document.getElementById("ly").checked=true;
+			break;
+		case 3:
+			console.log('2017');
+			markers_W.addTo(map);
+			document.getElementById("w").checked=true;
+			break;
+		case 4:
+			console.log('2016');
+			markers_tmbmil.addTo(map);
+			document.getElementById("tmbmil").checked=true;
+			break;
+		case 5:
+			console.log('2015');
+			markers_WU.addTo(map);
+			document.getElementById("wu").checked=true;
+			break;
+		case 6:
+			console.log('2014');
+			markers_RB.addTo(map);
+			document.getElementById("rb").checked=true;
+			break;
+	}
+	}
+);
