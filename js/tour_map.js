@@ -288,6 +288,8 @@ $(".slider").on("change", function () {
 			markers_RB.addTo(map);
 			document.getElementById("rb").checked=true;
 			break;
+		
+		
 	}
 	}
 );
