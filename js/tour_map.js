@@ -249,38 +249,59 @@ $(".slider").on("change", function () {
 		case 0:
 			console.log('2020');
 			markers_MotS.addTo(map);
+			openPlaylist('2020')
 			document.getElementById("mots").checked=true;
 			break;
 		case 1:
 			console.log('2019');
 			markers_SY.addTo(map);
+			openPlaylist('2019')
 			document.getElementById("sy").checked=true;
 			break;
 		case 2:
 			console.log('2018');
 			markers_LY.addTo(map);
+			openPlaylist('2018')
 			document.getElementById("ly").checked=true;
 			break;
 		case 3:
 			console.log('2017');
+			openPlaylist('2017')
 			markers_W.addTo(map);
 			document.getElementById("w").checked=true;
 			break;
 		case 4:
 			console.log('2016');
+			openPlaylist('2016'); 
 			markers_tmbmil.addTo(map);
 			document.getElementById("tmbmil").checked=true;
 			break;
 		case 5:
 			console.log('2015');
+			openPlaylist('2015');
 			markers_WU.addTo(map);
 			document.getElementById("wu").checked=true;
 			break;
 		case 6:
 			console.log('2014');
+			openPlaylist('2014')
 			markers_RB.addTo(map);
 			document.getElementById("rb").checked=true;
 			break;
 	}
 	}
 );
+
+function openPlaylist(Year) {
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	  tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	  tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(Year).style.display = "block";
+	// e.currentTarget.className += " active";
+}
