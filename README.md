@@ -34,7 +34,7 @@ We are the BTS Tracker Squad (a.k.a. BTS)! Our group will delve into K-Pop's glo
 <!--  Yahaira  -->
   <tr>
     <td>
-      <img align="left" width="200px" src="photos/yahaira.png">
+      <img align="left" width="200px" src="photos/yahaira1.png">
     </td>
     <td>
       Hi, I'm <b>Yahaira Cortez</b> and I will be the <b>Data Specialist</b> for our team. I am a fourth year Cognitive Science major and Digital Humanities minor and I am excited to learn about web design and how to create and embed interactive maps.
