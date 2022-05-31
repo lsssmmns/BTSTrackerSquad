@@ -5,7 +5,7 @@ let lon = 25;
 let zl = 2;
 let path = '';
 // put this in your global variables
-let geojsonPath2015 = 'data/20152022.geojson';
+let geojsonPath2015 = 'data/20152022wDesc.geojson';
 let geojson_data;
 let geojson_layer;
 let brew = new classyBrew();
@@ -53,9 +53,15 @@ function mapGeoJSON(year){
 	var datasets = [
 		'num_songs_2015', 'num_songs_2016', 'num_songs_2017', 'num_songs_2018', 'num_songs_2019', 'num_songs_2020', 'num_songs_2021', 'num_songs_2022'
 	];
-	console.log(year-2015);
+	var desc = [
+		'desc_2015 ', 'desc_2016', 'desc_2017', 'desc_2018', 'desc_2019', 'desc_2020', 'desc_2021', 'desc_2022'
+	];
 
-	var field = datasets[year-2015];
+	var id = year-2015;
+
+	console.log(id);
+
+	var field = datasets[id];
 	
 	// globalize the field to map
 	fieldtomap = field;
@@ -91,7 +97,7 @@ function mapGeoJSON(year){
 	createLegend();
 
     // create the infopanel
-	createInfoPanel();
+	createInfoPanel(desc[id]);
 
 	
 	// add playlist
@@ -196,7 +202,7 @@ function resetHighlight(e) {
     info_panel.update() // resets infopanel
 }
 
-function createInfoPanel(){
+function createInfoPanel(desc){
 
 	info_panel.onAdd = function (map) {
 		this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
@@ -206,9 +212,14 @@ function createInfoPanel(){
 
 	// method that we will use to update the control based on feature properties passed
 	info_panel.update = function (properties) {
+		console.log(properties);
 		// if feature is highlighted
 		if(properties){
-			this._div.innerHTML = `<b>${properties.name}</b><br>${fieldtomap}: ${properties[fieldtomap]}`;
+			if(properties[desc]===undefined || properties[desc]==''){
+				this._div.innerHTML = `<b>${properties.name}</b><br>No songs charted this year`;
+			}else{
+				this._div.innerHTML = `<b>${properties.name}</b><br>Charted songs: ${properties[desc]}`;
+			}
 		}
 		// if feature is not highlighted
 		else

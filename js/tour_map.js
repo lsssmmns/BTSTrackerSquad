@@ -176,6 +176,11 @@ function createLegend(){
 function ShowHideMarkers(chkMarker){
 	var temp;
 	console.log(chkMarker.id);
+	var i, tabcontent;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	  tabcontent[i].style.display = "none";
+	};
 	switch(chkMarker.id){
 		case 'mots':
 			console.log('mots');
@@ -237,13 +242,10 @@ $(".slider").on("change", function () {
 	var $inp = $(this);
 	var year = $inp.prop("value"); // reading input year
 	var id = 2020-year;
-	console.log(id===0);
 	// unclick all the tours
 	document.querySelectorAll('input[type="checkbox"]').forEach(e => e.checked = false);
 	const markers = [markers_MotS, markers_SY, markers_LY, markers_W, markers_tmbmil, markers_WU, markers_RB];
 	markers.forEach(e => e.removeFrom(map));
-	// markers_MotS.removeFrom(map);
-	// markers_SY.removeFrom(map);
 	// click the current year's tour on
 	switch(id){
 		case 0:
