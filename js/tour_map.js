@@ -178,7 +178,8 @@ function ShowHideMarkers(chkMarker){
 	console.log(chkMarker.id);
 	var i, tabcontent;
 	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
+	tabcontent[0].style.display = "block";
+	for (i = 1; i < tabcontent.length; i++) {
 	  tabcontent[i].style.display = "none";
 	};
 	switch(chkMarker.id){

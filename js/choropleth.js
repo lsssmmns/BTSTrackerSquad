@@ -97,7 +97,7 @@ function mapGeoJSON(year){
 	createLegend();
 
     // create the infopanel
-	createInfoPanel(desc[id]);
+	createInfoPanel(desc[id], year);
 
 	
 	// add playlist
@@ -202,7 +202,7 @@ function resetHighlight(e) {
     info_panel.update() // resets infopanel
 }
 
-function createInfoPanel(desc){
+function createInfoPanel(desc, year){
 
 	info_panel.onAdd = function (map) {
 		this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
@@ -216,9 +216,9 @@ function createInfoPanel(desc){
 		// if feature is highlighted
 		if(properties){
 			if(properties[desc]===undefined || properties[desc]==''){
-				this._div.innerHTML = `<b>${properties.name}</b><br>No songs charted this year`;
+				this._div.innerHTML = `<b>${properties.name}</b><br>Total Number of Songs Charted in ${year}: <b>${properties[fieldtomap]}</b>`;
 			}else{
-				this._div.innerHTML = `<b>${properties.name}</b><br>Charted songs: ${properties[desc]}`;
+				this._div.innerHTML = `<b>${properties.name}</b><br>Total Number of Songs Charted in ${year}: <b>${properties[fieldtomap]}</b><br>Songs: <br>${properties[desc]}`;
 			}
 		}
 		// if feature is not highlighted
