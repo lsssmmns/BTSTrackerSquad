@@ -54,7 +54,7 @@ function mapGeoJSON(year){
 		'num_songs_2015', 'num_songs_2016', 'num_songs_2017', 'num_songs_2018', 'num_songs_2019', 'num_songs_2020', 'num_songs_2021', 'num_songs_2022'
 	];
 	var desc = [
-		'desc_2015 ', 'desc_2016', 'desc_2017', 'desc_2018', 'desc_2019', 'desc_2020', 'desc_2021', 'desc_2022'
+		'desc_2015', 'desc_2016', 'desc_2017', 'desc_2018', 'desc_2019', 'desc_2020', 'desc_2021', 'desc_2022'
 	];
 
 	var id = year-2015;
