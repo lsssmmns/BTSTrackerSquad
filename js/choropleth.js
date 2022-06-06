@@ -12,6 +12,8 @@ let brew = new classyBrew();
 let legend = L.control({position: 'bottomright'});
 let info_panel = L.control();
 let breaks = [0,0,5,15,25,35,45];
+let currentyear;
+let currentdesc;
 
 // initialize
 $( document ).ready(function() {
@@ -44,6 +46,7 @@ function getGeoJSON(){
 
 // function to map a geojson file
 function mapGeoJSON(year){
+	currentyear = year;
 
 	// clear layers in case it has been mapped already
 	if (geojson_layer){
@@ -58,6 +61,7 @@ function mapGeoJSON(year){
 	];
 
 	var id = year-2015;
+	currentdesc = desc[id];
 
 	console.log(id);
 
@@ -173,21 +177,31 @@ function createLegend(){
 // Function that defines what will happen on user interactions with each feature
 function onEachFeature(feature, layer) {
 	layer.on({
-		mouseover: highlightFeature,
-		mouseout: resetHighlight
+		click: highlightFeature,
 	});
 }
 
 // on mouse over, highlight the feature
 function highlightFeature(e) {
-	var layer = e.target;
+	// reset map
+	geojson_layer.resetStyle();
 
-	// style to use on mouse over
-	layer.setStyle({
-		weight: 2,
-		color: '#5b4876',
-		fillOpacity: 0.7
-	});
+	var layer = e.target;
+	var properties = layer.feature.properties;
+	if(properties){
+		var description = info_panel._div.innerHTML;
+		console.log(description[0]);
+		if(description[0]==="C"){
+			// style to use on click
+			layer.setStyle({
+				weight: 2,
+				color: '#5b4876',
+				fillOpacity: 0.7
+			});
+		}else{
+			geojson_layer.resetStyle(e.target);
+		}
+	}
 
 	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
 		layer.bringToFront();
@@ -205,26 +219,32 @@ function resetHighlight(e) {
 function createInfoPanel(desc, year){
 
 	info_panel.onAdd = function (map) {
-		this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+		this._div = L.DomUtil.create('div', 'info panel'); // create a div with a class "info"
 		this.update();
 		return this._div;
 	};
 
 	// method that we will use to update the control based on feature properties passed
 	info_panel.update = function (properties) {
-		console.log(properties);
 		// if feature is highlighted
+		var description = this._div.innerHTML;
 		if(properties){
-			if(properties[desc]===undefined || properties[desc]==''){
-				this._div.innerHTML = `<b>${properties.name}</b><br>Total Number of Songs Charted in ${year}: <b>${properties[fieldtomap]}</b>`;
-			}else{
-				this._div.innerHTML = `<b>${properties.name}</b><br>Total Number of Songs Charted in ${year}: <b>${properties[fieldtomap]}</b><br>Songs: <br>${properties[desc]}`;
+			var desc_nosongs = `<b>${properties.name}</b><br><i>${properties[fieldtomap]} Songs Charted in ${year}</i>`;
+			if(description[0]==="C"){
+				if(properties[desc]===undefined || properties[desc]==''){
+					this._div.innerHTML = desc_nosongs;
+				}else{
+					this._div.innerHTML = desc_nosongs+` :<br>${properties[desc]}`;
+				}
+			}else
+			{	
+				this._div.innerHTML = 'Click on a country';
 			}
 		}
 		// if feature is not highlighted
 		else
 		{
-			this._div.innerHTML = 'Hover over a country';
+			this._div.innerHTML = 'Click on a country';
 		}
 	};
 

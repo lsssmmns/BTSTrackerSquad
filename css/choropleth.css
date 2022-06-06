@@ -18,6 +18,11 @@ body {
 	"footer footer";
 }
 
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
 body H1{
     color:rgb(255, 255, 255);
     font-family: 'Bebas Neue';
@@ -105,7 +110,7 @@ body H1{
     padding: 0px;
 }
 
-.content::-webkit-scrollbar { 
+.timeslide::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
 
@@ -117,13 +122,28 @@ body H1{
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 	border-radius: 5px;
 	min-width: 100px;
-	min-height: 50px;
+	min-height: 20px;
+    max-height: 300px;
     color:black;
 }
 
 .info h4 {
 	margin: 0 0 5px;
 	color: #777;
+}
+
+.panel{
+    overflow-y: scroll;
+}
+
+.panel::-webkit-scrollbar{
+    width: 10px;
+    height: 8px;
+    /* background-color: #777; or add it to the track */
+}
+
+.panel::-webkit-scrollbar-thumb {
+    background: #876cac;
 }
 
 .legend {
@@ -170,7 +190,7 @@ body H1{
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar { 
+.sidebar::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
 
