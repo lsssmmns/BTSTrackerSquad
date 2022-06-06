@@ -96,5 +96,6 @@ The linked data will be the second dataset used in creating the map of BTS's glo
 
 ## UX/UI
 Generally we want the site to be fun and sleek. We think it would be cool to mimic the BTS website so it’s fun for fans and conveys a sense of credibility on the subject matter. We would like to keep all the storytelling elements on one page, so it’s important to be very organized so as much information as possible can be fit into a small space (don’t want to have to scroll for hours). Some interesting features we want to implement are: a play button that shows the user the mapping data changes over a certain time period, have multiple overlapping datasets which can be added or removed from the map using checkboxes, and create start page that walks through the data narrative using a slideshow format. Our storyboard can be seen below. Click on it to see a more detailed description of our design process. 
+
 [<img src="/photos/Yahaira_Story_WireFrame.png" width="400"/>](https://github.com/lsssmmns/BTSTrackerSquad/blob/main/storyboard.md)
 
