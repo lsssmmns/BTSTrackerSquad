@@ -190,17 +190,18 @@ function highlightFeature(e) {
 	var properties = layer.feature.properties;
 	if(properties){
 		var description = info_panel._div.innerHTML;
-		console.log(description[0]);
-		if(description[0]==="C"){
+		if(description[3]===properties.name[0]){
+			geojson_layer.resetStyle(e.target);
+		}else{
 			// style to use on click
 			layer.setStyle({
 				weight: 2,
 				color: '#5b4876',
 				fillOpacity: 0.7
 			});
-		}else{
-			geojson_layer.resetStyle(e.target);
 		}
+	}else{
+		geojson_layer.resetStyle(e.target);
 	}
 
 	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
@@ -230,15 +231,15 @@ function createInfoPanel(desc, year){
 		var description = this._div.innerHTML;
 		if(properties){
 			var desc_nosongs = `<b>${properties.name}</b><br><i>${properties[fieldtomap]} Songs Charted in ${year}</i>`;
-			if(description[0]==="C"){
+			if(description[3]===properties.name[0]){
+				this._div.innerHTML = 'Click on a country';
+			}else
+			{	
 				if(properties[desc]===undefined || properties[desc]==''){
 					this._div.innerHTML = desc_nosongs;
 				}else{
 					this._div.innerHTML = desc_nosongs+` :<br>${properties[desc]}`;
 				}
-			}else
-			{	
-				this._div.innerHTML = 'Click on a country';
 			}
 		}
 		// if feature is not highlighted
